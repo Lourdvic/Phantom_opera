@@ -1,0 +1,147 @@
+02:00:15 :: DEBUG :: |
+|
+02:00:15 :: DEBUG :: fantom answers
+02:00:15 :: DEBUG :: question type ----- select character
+02:00:15 :: DEBUG :: data -------------- [{'color': 'white', 'suspect': True, 'position': 6, 'power': True}, {'color': 'grey', 'suspect': True, 'position': 0, 'power': True}, {'color': 'pink', 'suspect': True, 'position': 5, 'power': True}]
+02:00:15 :: DEBUG :: response index ---- 1
+02:00:15 :: DEBUG :: response ---------- {'color': 'grey', 'suspect': True, 'position': 0, 'power': True}
+02:00:15 :: DEBUG :: |
+|
+02:00:15 :: DEBUG :: fantom answers
+02:00:15 :: DEBUG :: question type ----- activate grey power
+02:00:15 :: DEBUG :: data -------------- [0, 1]
+02:00:15 :: DEBUG :: response index ---- 1
+02:00:15 :: DEBUG :: response ---------- 1
+02:00:15 :: DEBUG :: |
+|
+02:00:15 :: DEBUG :: fantom answers
+02:00:15 :: DEBUG :: question type ----- grey character power
+02:00:15 :: DEBUG :: data -------------- [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+02:00:15 :: DEBUG :: response index ---- 3
+02:00:15 :: DEBUG :: response ---------- 3
+02:00:16 :: DEBUG :: |
+|
+02:00:16 :: DEBUG :: fantom answers
+02:00:16 :: DEBUG :: question type ----- select position
+02:00:16 :: DEBUG :: data -------------- [4]
+02:00:16 :: DEBUG :: response index ---- 0
+02:00:16 :: DEBUG :: response ---------- 4
+02:00:16 :: DEBUG :: |
+|
+02:00:16 :: DEBUG :: fantom answers
+02:00:16 :: DEBUG :: question type ----- select character
+02:00:16 :: DEBUG :: data -------------- [{'color': 'white', 'suspect': True, 'position': 6, 'power': True}, {'color': 'pink', 'suspect': True, 'position': 5, 'power': True}]
+02:00:16 :: DEBUG :: response index ---- 1
+02:00:16 :: DEBUG :: response ---------- {'color': 'pink', 'suspect': True, 'position': 5, 'power': True}
+02:00:16 :: DEBUG :: |
+|
+02:00:16 :: DEBUG :: fantom answers
+02:00:16 :: DEBUG :: question type ----- select position
+02:00:16 :: DEBUG :: data -------------- [8, 1, 4, 6]
+02:00:16 :: DEBUG :: response index ---- 3
+02:00:16 :: DEBUG :: response ---------- 6
+02:00:16 :: DEBUG :: |
+|
+02:00:16 :: DEBUG :: fantom answers
+02:00:16 :: DEBUG :: question type ----- select character
+02:00:16 :: DEBUG :: data -------------- [{'color': 'black', 'suspect': False, 'position': 1, 'power': True}, {'color': 'brown', 'suspect': True, 'position': 4, 'power': True}, {'color': 'purple', 'suspect': True, 'position': 2, 'power': True}, {'color': 'red', 'suspect': True, 'position': 7, 'power': True}]
+02:00:16 :: DEBUG :: response index ---- 3
+02:00:16 :: DEBUG :: response ---------- {'color': 'red', 'suspect': True, 'position': 7, 'power': True}
+02:00:16 :: DEBUG :: |
+|
+02:00:16 :: DEBUG :: fantom answers
+02:00:16 :: DEBUG :: question type ----- activate red power
+02:00:16 :: DEBUG :: data -------------- [0, 1]
+02:00:16 :: DEBUG :: response index ---- 0
+02:00:16 :: DEBUG :: response ---------- 0
+02:00:16 :: DEBUG :: |
+|
+02:00:16 :: DEBUG :: fantom answers
+02:00:16 :: DEBUG :: question type ----- select position
+02:00:16 :: DEBUG :: data -------------- [9, 3, 6]
+02:00:16 :: DEBUG :: response index ---- 0
+02:00:16 :: DEBUG :: response ---------- 9
+02:00:16 :: DEBUG :: |
+|
+02:00:16 :: DEBUG :: fantom answers
+02:00:16 :: DEBUG :: question type ----- activate red power
+02:00:16 :: DEBUG :: data -------------- [0, 1]
+02:00:16 :: DEBUG :: response index ---- 0
+02:00:16 :: DEBUG :: response ---------- 0
+02:00:17 :: DEBUG :: |
+|
+02:00:17 :: DEBUG :: fantom answers
+02:00:17 :: DEBUG :: question type ----- select character
+02:00:17 :: DEBUG :: data -------------- [{'color': 'purple', 'suspect': True, 'position': 2, 'power': True}]
+02:00:17 :: DEBUG :: response index ---- 0
+02:00:17 :: DEBUG :: response ---------- {'color': 'purple', 'suspect': True, 'position': 2, 'power': True}
+02:00:17 :: DEBUG :: |
+|
+02:00:17 :: DEBUG :: fantom answers
+02:00:17 :: DEBUG :: question type ----- activate purple power
+02:00:17 :: DEBUG :: data -------------- [0, 1]
+02:00:17 :: DEBUG :: response index ---- 1
+02:00:17 :: DEBUG :: response ---------- 1
+02:00:17 :: DEBUG :: |
+|
+02:00:17 :: DEBUG :: fantom answers
+02:00:17 :: DEBUG :: question type ----- purple character power
+02:00:17 :: DEBUG :: data -------------- ['red', 'blue', 'black', 'pink', 'brown', 'grey', 'white']
+02:00:17 :: DEBUG :: response index ---- 0
+02:00:17 :: DEBUG :: response ---------- red
+02:00:17 :: DEBUG :: |
+|
+02:00:17 :: DEBUG :: fantom answers
+02:00:17 :: DEBUG :: question type ----- select character
+02:00:17 :: DEBUG :: data -------------- [{'color': 'purple', 'suspect': True, 'position': 9, 'power': True}, {'color': 'grey', 'suspect': False, 'position': 8, 'power': True}, {'color': 'black', 'suspect': False, 'position': 2, 'power': True}]
+02:00:17 :: DEBUG :: response index ---- 1
+02:00:17 :: DEBUG :: response ---------- {'color': 'grey', 'suspect': False, 'position': 8, 'power': True}
+02:00:17 :: DEBUG :: |
+|
+02:00:17 :: DEBUG :: fantom answers
+02:00:17 :: DEBUG :: question type ----- activate grey power
+02:00:17 :: DEBUG :: data -------------- [0, 1]
+02:00:17 :: DEBUG :: response index ---- 0
+02:00:17 :: DEBUG :: response ---------- 0
+02:00:17 :: DEBUG :: |
+|
+02:00:17 :: DEBUG :: fantom answers
+02:00:17 :: DEBUG :: question type ----- select position
+02:00:17 :: DEBUG :: data -------------- [9, 4]
+02:00:17 :: DEBUG :: response index ---- 0
+02:00:17 :: DEBUG :: response ---------- 9
+02:00:18 :: DEBUG :: |
+|
+02:00:18 :: DEBUG :: fantom answers
+02:00:18 :: DEBUG :: question type ----- activate grey power
+02:00:18 :: DEBUG :: data -------------- [0, 1]
+02:00:18 :: DEBUG :: response index ---- 1
+02:00:18 :: DEBUG :: response ---------- 1
+02:00:18 :: DEBUG :: |
+|
+02:00:18 :: DEBUG :: fantom answers
+02:00:18 :: DEBUG :: question type ----- grey character power
+02:00:18 :: DEBUG :: data -------------- [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+02:00:18 :: DEBUG :: response index ---- 9
+02:00:18 :: DEBUG :: response ---------- 9
+02:00:18 :: DEBUG :: |
+|
+02:00:18 :: DEBUG :: fantom answers
+02:00:18 :: DEBUG :: question type ----- select character
+02:00:18 :: DEBUG :: data -------------- [{'color': 'purple', 'suspect': True, 'position': 9, 'power': True}, {'color': 'black', 'suspect': False, 'position': 2, 'power': True}]
+02:00:18 :: DEBUG :: response index ---- 0
+02:00:18 :: DEBUG :: response ---------- {'color': 'purple', 'suspect': True, 'position': 9, 'power': True}
+02:00:18 :: DEBUG :: |
+|
+02:00:18 :: DEBUG :: fantom answers
+02:00:18 :: DEBUG :: question type ----- activate purple power
+02:00:18 :: DEBUG :: data -------------- [0, 1]
+02:00:18 :: DEBUG :: response index ---- 0
+02:00:18 :: DEBUG :: response ---------- 0
+02:00:18 :: DEBUG :: |
+|
+02:00:18 :: DEBUG :: fantom answers
+02:00:18 :: DEBUG :: question type ----- select position
+02:00:18 :: DEBUG :: data -------------- [8, 7]
+02:00:18 :: DEBUG :: response index ---- 0
+02:00:18 :: DEBUG :: response ---------- 8
