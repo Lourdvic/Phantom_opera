@@ -49,8 +49,43 @@ class Player():
     def answer(self, question):
         # work
         data = question["data"]
-        game_state = question["game state"]
-        response_index = random.randint(0, len(data)-1)
+        print("data == ", data)
+        i = 0
+        qtype = question["question type"]
+        print("question", qtype)
+        response_index = random.randint(0, len(data) - 1)
+        if qtype == "select character":
+            while i < len(question["data"]):
+                print("character color  is : ", data[i]["color"], " | and his pos is :", data[i]["position"])
+                i += 1
+            response_index = random.randint(0, len(data) - 1)
+            print("response : ", response_index)
+        # power = "activate " + data[response_index]['color'] + " power"
+        elif qtype == "activate purple power":
+            response_index = 1
+        elif qtype == "activate red power":
+            response_index = 1
+        elif qtype == "activate black power":
+            response_index = 1
+        elif qtype == "activate blue power":
+            response_index = 1
+        elif qtype == "activate white power":
+            response_index = 1
+        elif qtype == "activate grey power":
+            response_index = 1
+        elif qtype == "activate pink power":
+            response_index = random.randint(0, len(data) - 1)
+            print("respone : ", response_index)
+        elif qtype == "select position":
+            response_index = int(len(data) - 1)
+            print("respone : ", response_index)
+
+
+        #elif qtype == "activate " + data[response_index]['color']  + " power":
+         #   print("YES ACTIVATE ", data[response_index]['color'], " power")
+
+
+
         # log
         inspector_logger.debug("|\n|")
         inspector_logger.debug("inspector answers")

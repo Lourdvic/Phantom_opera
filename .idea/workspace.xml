@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d06fc9a4-79c7-485b-8b19-8a38a847a909" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Phantom_opera.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/fantom.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/fantom.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/game.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/inspector.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/inspector.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/profiling.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/profiling.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/globals.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/globals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_fantom.py" beforeDir="false" afterPath="$PROJECT_DIR$/random_fantom.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_inspector.py" beforeDir="false" afterPath="$PROJECT_DIR$/random_inspector.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +66,12 @@
       <updated>1577208374644</updated>
       <workItem from="1577208375728" duration="1437000" />
       <workItem from="1577375462733" duration="946000" />
+      <workItem from="1577386936308" duration="2748000" />
+      <workItem from="1577571182498" duration="702000" />
+      <workItem from="1577732683074" duration="2260000" />
+      <workItem from="1577975320349" duration="5832000" />
+      <workItem from="1578075387139" duration="2016000" />
+      <workItem from="1578137374129" duration="9316000" />
     </task>
     <servers />
   </component>
