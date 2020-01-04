@@ -75,9 +75,23 @@ class Player():
             response_index = 1
         elif qtype == "activate pink power":
             response_index = random.randint(0, len(data) - 1)
-            print("respone : ", response_index)
         elif qtype == "select position":
-            response_index = int(len(data) - 1)
+            j = 0
+            while j < len(question["game state"]["characters"]):
+                print("gstate suspect : ", question["game state"]["characters"][j]["suspect"], " | position :",
+                  question["game state"]["characters"][j]["position"], " | color : ",
+                  question["game state"]["characters"][j]["color"])
+                x = 0
+                while x < len(data):
+                    print(data[x])
+                    if data[x] == question["game state"]["characters"][j]["position"]:
+                        response_index = x
+                        print("if response :", response_index)
+                        x = 42
+                    x += 1
+                j += 1
+
+
             print("respone : ", response_index)
 
 

@@ -1,88 +1,82 @@
-16:30:49 :: INFO :: no client yet
-16:30:56 :: INFO :: Received client !
-16:31:02 :: INFO :: Received client !
-16:31:02 :: INFO :: received all clients
-16:31:02 :: INFO :: the fantom is white
-16:31:02 :: INFO :: 
+18:58:56 :: INFO :: no client yet
+18:58:59 :: INFO :: Received client !
+18:59:02 :: INFO :: Received client !
+18:59:02 :: INFO :: received all clients
+18:59:02 :: INFO :: the fantom is red
+18:59:02 :: INFO :: 
 =======
 new game
 =======
-16:31:02 :: INFO :: shuffle 8 tiles
-16:31:02 :: INFO :: shuffle 10 cards
-16:31:02 :: INFO :: 
+18:59:02 :: INFO :: shuffle 8 tiles
+18:59:02 :: INFO :: shuffle 10 cards
+18:59:02 :: INFO :: 
 ------------------
-16:31:02 :: INFO :: 
-blue-7-suspectTour: 1,
+18:59:02 :: INFO :: 
+grey-2-suspectTour: 1,
 Position Carlotta / exit: 4/22,
-Shadow: 8,
-blocked: {9, 7}
-brown-4-suspectTour: 1,
+Shadow: 0,
+blocked: {0, 1}
+brown-5-suspectTour: 1,
 Position Carlotta / exit: 4/22,
-Shadow: 8,
-blocked: {9, 7}
-black-2-suspectTour: 1,
+Shadow: 0,
+blocked: {0, 1}
+black-4-suspectTour: 1,
 Position Carlotta / exit: 4/22,
-Shadow: 8,
-blocked: {9, 7}
-grey-3-suspectTour: 1,
+Shadow: 0,
+blocked: {0, 1}
+purple-7-suspectTour: 1,
 Position Carlotta / exit: 4/22,
-Shadow: 8,
-blocked: {9, 7}
-red-0-suspectTour: 1,
+Shadow: 0,
+blocked: {0, 1}
+red-1-suspectTour: 1,
 Position Carlotta / exit: 4/22,
-Shadow: 8,
-blocked: {9, 7}
-white-1-suspectTour: 1,
+Shadow: 0,
+blocked: {0, 1}
+pink-0-suspectTour: 1,
 Position Carlotta / exit: 4/22,
-Shadow: 8,
-blocked: {9, 7}
-pink-5-suspectTour: 1,
+Shadow: 0,
+blocked: {0, 1}
+white-3-suspectTour: 1,
 Position Carlotta / exit: 4/22,
-Shadow: 8,
-blocked: {9, 7}
-purple-6-suspect
-16:31:02 :: DEBUG :: {
+Shadow: 0,
+blocked: {0, 1}
+blue-6-suspect
+18:59:02 :: DEBUG :: {
     "position_carlotta": 4,
     "exit": 22,
     "num_tour": 1,
-    "shadow": 8,
+    "shadow": 0,
     "blocked": [
-        9,
-        7
+        0,
+        1
     ],
     "characters": [
         {
-            "color": "blue",
-            "suspect": true,
-            "position": 7,
-            "power": true
-        },
-        {
-            "color": "brown",
-            "suspect": true,
-            "position": 4,
-            "power": true
-        },
-        {
-            "color": "black",
+            "color": "grey",
             "suspect": true,
             "position": 2,
             "power": true
         },
         {
-            "color": "grey",
+            "color": "brown",
             "suspect": true,
-            "position": 3,
+            "position": 5,
+            "power": true
+        },
+        {
+            "color": "black",
+            "suspect": true,
+            "position": 4,
+            "power": true
+        },
+        {
+            "color": "purple",
+            "suspect": true,
+            "position": 7,
             "power": true
         },
         {
             "color": "red",
-            "suspect": true,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "white",
             "suspect": true,
             "position": 1,
             "power": true
@@ -90,11 +84,17 @@ purple-6-suspect
         {
             "color": "pink",
             "suspect": true,
-            "position": 5,
+            "position": 0,
             "power": true
         },
         {
-            "color": "purple",
+            "color": "white",
+            "suspect": true,
+            "position": 3,
+            "power": true
+        },
+        {
+            "color": "blue",
             "suspect": true,
             "position": 6,
             "power": true
@@ -102,49 +102,49 @@ purple-6-suspect
     ],
     "tiles": [
         {
-            "color": "red",
+            "color": "pink",
             "suspect": true,
             "position": 0,
             "power": true
         },
         {
-            "color": "white",
+            "color": "red",
             "suspect": true,
             "position": 1,
             "power": true
         },
         {
-            "color": "black",
+            "color": "grey",
             "suspect": true,
             "position": 2,
             "power": true
         },
         {
-            "color": "grey",
+            "color": "white",
             "suspect": true,
             "position": 3,
             "power": true
         },
         {
-            "color": "brown",
+            "color": "black",
             "suspect": true,
             "position": 4,
             "power": true
         },
         {
-            "color": "pink",
+            "color": "brown",
             "suspect": true,
             "position": 5,
             "power": true
         },
         {
-            "color": "purple",
+            "color": "blue",
             "suspect": true,
             "position": 6,
             "power": true
         },
         {
-            "color": "blue",
+            "color": "purple",
             "suspect": true,
             "position": 7,
             "power": true
@@ -152,54 +152,48 @@ purple-6-suspect
     ],
     "active tiles": []
 }
-16:31:02 :: INFO :: -
+18:59:02 :: INFO :: -
 shuffle 8 tiles
 -
-16:31:02 :: INFO :: --
+18:59:02 :: INFO :: --
 inspector plays
 --
-16:31:02 :: DEBUG :: {
+18:59:02 :: DEBUG :: {
     "position_carlotta": 4,
     "exit": 22,
     "num_tour": 1,
-    "shadow": 8,
+    "shadow": 0,
     "blocked": [
-        9,
-        7
+        0,
+        1
     ],
     "characters": [
         {
-            "color": "blue",
-            "suspect": true,
-            "position": 7,
-            "power": true
-        },
-        {
-            "color": "brown",
-            "suspect": true,
-            "position": 4,
-            "power": true
-        },
-        {
-            "color": "black",
+            "color": "grey",
             "suspect": true,
             "position": 2,
             "power": true
         },
         {
-            "color": "grey",
+            "color": "brown",
             "suspect": true,
-            "position": 3,
+            "position": 5,
+            "power": true
+        },
+        {
+            "color": "black",
+            "suspect": true,
+            "position": 4,
+            "power": true
+        },
+        {
+            "color": "purple",
+            "suspect": true,
+            "position": 7,
             "power": true
         },
         {
             "color": "red",
-            "suspect": true,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "white",
             "suspect": true,
             "position": 1,
             "power": true
@@ -207,11 +201,17 @@ inspector plays
         {
             "color": "pink",
             "suspect": true,
-            "position": 5,
+            "position": 0,
             "power": true
         },
         {
-            "color": "purple",
+            "color": "white",
+            "suspect": true,
+            "position": 3,
+            "power": true
+        },
+        {
+            "color": "blue",
             "suspect": true,
             "position": 6,
             "power": true
@@ -219,144 +219,133 @@ inspector plays
     ],
     "tiles": [
         {
-            "color": "black",
-            "suspect": true,
-            "position": 2,
-            "power": true
-        },
-        {
-            "color": "white",
-            "suspect": true,
-            "position": 1,
-            "power": true
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 5,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": true,
-            "position": 3,
-            "power": true
-        },
-        {
             "color": "brown",
             "suspect": true,
-            "position": 4,
-            "power": true
-        },
-        {
-            "color": "blue",
-            "suspect": true,
-            "position": 7,
-            "power": true
-        },
-        {
-            "color": "purple",
-            "suspect": true,
-            "position": 6,
+            "position": 5,
             "power": true
         },
         {
             "color": "red",
             "suspect": true,
-            "position": 0,
-            "power": true
-        }
-    ],
-    "active tiles": [
-        {
-            "color": "black",
-            "suspect": true,
-            "position": 2,
-            "power": true
-        },
-        {
-            "color": "white",
-            "suspect": true,
             "position": 1,
             "power": true
         },
         {
-            "color": "pink",
+            "color": "purple",
             "suspect": true,
-            "position": 5,
+            "position": 7,
             "power": true
         },
         {
             "color": "grey",
             "suspect": true,
+            "position": 2,
+            "power": true
+        },
+        {
+            "color": "black",
+            "suspect": true,
+            "position": 4,
+            "power": true
+        },
+        {
+            "color": "pink",
+            "suspect": true,
+            "position": 0,
+            "power": true
+        },
+        {
+            "color": "white",
+            "suspect": true,
             "position": 3,
+            "power": true
+        },
+        {
+            "color": "blue",
+            "suspect": true,
+            "position": 6,
+            "power": true
+        }
+    ],
+    "active tiles": [
+        {
+            "color": "brown",
+            "suspect": true,
+            "position": 5,
+            "power": true
+        },
+        {
+            "color": "red",
+            "suspect": true,
+            "position": 1,
+            "power": true
+        },
+        {
+            "color": "purple",
+            "suspect": true,
+            "position": 7,
+            "power": true
+        },
+        {
+            "color": "grey",
+            "suspect": true,
+            "position": 2,
             "power": true
         }
     ]
 }
-16:31:02 :: DEBUG :: send json to player 0
-16:31:02 :: DEBUG :: receive json from player 0
-16:31:02 :: INFO :: question : select character
-16:31:02 :: INFO :: answer : grey-3-suspect
-16:31:02 :: DEBUG :: send json to player 0
-16:31:02 :: DEBUG :: receive json from player 0
-16:31:02 :: INFO :: question : activate grey power
-16:31:02 :: INFO :: answer  : yes
-16:31:02 :: INFO :: grey power activated
-16:31:02 :: DEBUG :: send json to player 0
-16:31:02 :: DEBUG :: receive json from player 0
-16:31:02 :: INFO :: question : grey character power
-16:31:02 :: INFO :: answer : 3
-16:31:02 :: DEBUG :: send json to player 0
-16:31:02 :: DEBUG :: receive json from player 0
-16:31:02 :: INFO :: question : select position
-16:31:02 :: INFO :: answer : 7
-16:31:02 :: INFO :: new position : grey-7-suspect
-16:31:02 :: INFO :: --
+18:59:02 :: DEBUG :: send json to player 0
+18:59:02 :: DEBUG :: receive json from player 0
+18:59:02 :: INFO :: question : select character
+18:59:02 :: INFO :: answer : purple-7-suspect
+18:59:02 :: DEBUG :: send json to player 0
+18:59:02 :: DEBUG :: receive json from player 0
+18:59:02 :: INFO :: question : activate purple power
+18:59:02 :: INFO :: answer  : no
+18:59:02 :: DEBUG :: send json to player 0
+18:59:02 :: DEBUG :: receive json from player 0
+18:59:02 :: INFO :: question : select position
+18:59:02 :: INFO :: answer : 9
+18:59:02 :: INFO :: new position : purple-9-suspect
+18:59:02 :: INFO :: --
 fantom plays
 --
-16:31:02 :: DEBUG :: {
+18:59:02 :: DEBUG :: {
     "position_carlotta": 4,
     "exit": 22,
     "num_tour": 1,
-    "shadow": 3,
+    "shadow": 0,
     "blocked": [
-        9,
-        7
+        0,
+        1
     ],
     "characters": [
         {
-            "color": "blue",
-            "suspect": true,
-            "position": 7,
-            "power": true
-        },
-        {
-            "color": "brown",
-            "suspect": true,
-            "position": 4,
-            "power": true
-        },
-        {
-            "color": "black",
+            "color": "grey",
             "suspect": true,
             "position": 2,
             "power": true
         },
         {
-            "color": "grey",
+            "color": "brown",
             "suspect": true,
-            "position": 7,
-            "power": false
-        },
-        {
-            "color": "red",
-            "suspect": true,
-            "position": 0,
+            "position": 5,
             "power": true
         },
         {
-            "color": "white",
+            "color": "black",
+            "suspect": true,
+            "position": 4,
+            "power": true
+        },
+        {
+            "color": "purple",
+            "suspect": true,
+            "position": 9,
+            "power": true
+        },
+        {
+            "color": "red",
             "suspect": true,
             "position": 1,
             "power": true
@@ -364,11 +353,17 @@ fantom plays
         {
             "color": "pink",
             "suspect": true,
-            "position": 5,
+            "position": 0,
             "power": true
         },
         {
-            "color": "purple",
+            "color": "white",
+            "suspect": true,
+            "position": 3,
+            "power": true
+        },
+        {
+            "color": "blue",
             "suspect": true,
             "position": 6,
             "power": true
@@ -376,133 +371,132 @@ fantom plays
     ],
     "tiles": [
         {
-            "color": "black",
-            "suspect": true,
-            "position": 2,
-            "power": true
-        },
-        {
-            "color": "white",
-            "suspect": true,
-            "position": 1,
-            "power": true
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 5,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": true,
-            "position": 7,
-            "power": false
-        },
-        {
             "color": "brown",
             "suspect": true,
-            "position": 4,
-            "power": true
-        },
-        {
-            "color": "blue",
-            "suspect": true,
-            "position": 7,
-            "power": true
-        },
-        {
-            "color": "purple",
-            "suspect": true,
-            "position": 6,
+            "position": 5,
             "power": true
         },
         {
             "color": "red",
             "suspect": true,
-            "position": 0,
+            "position": 1,
             "power": true
-        }
-    ],
-    "active tiles": [
+        },
         {
-            "color": "black",
+            "color": "purple",
+            "suspect": true,
+            "position": 9,
+            "power": true
+        },
+        {
+            "color": "grey",
             "suspect": true,
             "position": 2,
             "power": true
         },
         {
-            "color": "white",
+            "color": "black",
             "suspect": true,
-            "position": 1,
+            "position": 4,
             "power": true
         },
         {
             "color": "pink",
             "suspect": true,
+            "position": 0,
+            "power": true
+        },
+        {
+            "color": "white",
+            "suspect": true,
+            "position": 3,
+            "power": true
+        },
+        {
+            "color": "blue",
+            "suspect": true,
+            "position": 6,
+            "power": true
+        }
+    ],
+    "active tiles": [
+        {
+            "color": "brown",
+            "suspect": true,
             "position": 5,
+            "power": true
+        },
+        {
+            "color": "red",
+            "suspect": true,
+            "position": 1,
+            "power": true
+        },
+        {
+            "color": "grey",
+            "suspect": true,
+            "position": 2,
             "power": true
         }
     ]
 }
-16:31:02 :: DEBUG :: send json to player 1
-16:31:02 :: DEBUG :: receive json from player 1
-16:31:02 :: INFO :: question : select character
-16:31:02 :: INFO :: answer : black-2-suspect
-16:31:02 :: DEBUG :: send json to player 1
-16:31:02 :: DEBUG :: receive json from player 1
-16:31:02 :: INFO :: question : select position
-16:31:02 :: INFO :: answer : 1
-16:31:02 :: INFO :: new position : black-1-suspect
-16:31:02 :: DEBUG :: send json to player 1
-16:31:02 :: DEBUG :: receive json from player 1
-16:31:02 :: INFO :: question : activate black power
-16:31:02 :: INFO :: answer  : no
-16:31:02 :: INFO :: --
+18:59:02 :: DEBUG :: send json to player 1
+18:59:02 :: DEBUG :: receive json from player 1
+18:59:02 :: INFO :: question : select character
+18:59:02 :: INFO :: answer : grey-2-suspect
+18:59:02 :: DEBUG :: send json to player 1
+18:59:02 :: DEBUG :: receive json from player 1
+18:59:02 :: INFO :: question : activate grey power
+18:59:02 :: INFO :: answer  : yes
+18:59:02 :: INFO :: grey power activated
+18:59:02 :: DEBUG :: send json to player 1
+18:59:02 :: DEBUG :: receive json from player 1
+18:59:02 :: INFO :: question : grey character power
+18:59:02 :: INFO :: answer : 2
+18:59:02 :: DEBUG :: send json to player 1
+18:59:02 :: DEBUG :: receive json from player 1
+18:59:02 :: INFO :: question : select position
+18:59:02 :: INFO :: answer : 3
+18:59:02 :: INFO :: new position : grey-3-suspect
+18:59:02 :: INFO :: --
 fantom plays
 --
-16:31:02 :: DEBUG :: {
+18:59:02 :: DEBUG :: {
     "position_carlotta": 4,
     "exit": 22,
     "num_tour": 1,
-    "shadow": 3,
+    "shadow": 2,
     "blocked": [
-        9,
-        7
+        0,
+        1
     ],
     "characters": [
         {
-            "color": "blue",
+            "color": "grey",
             "suspect": true,
-            "position": 7,
-            "power": true
+            "position": 3,
+            "power": false
         },
         {
             "color": "brown",
             "suspect": true,
-            "position": 4,
+            "position": 5,
             "power": true
         },
         {
             "color": "black",
             "suspect": true,
-            "position": 1,
+            "position": 4,
             "power": true
         },
         {
-            "color": "grey",
+            "color": "purple",
             "suspect": true,
-            "position": 7,
-            "power": false
+            "position": 9,
+            "power": true
         },
         {
             "color": "red",
-            "suspect": true,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "white",
             "suspect": true,
             "position": 1,
             "power": true
@@ -510,11 +504,17 @@ fantom plays
         {
             "color": "pink",
             "suspect": true,
-            "position": 5,
+            "position": 0,
             "power": true
         },
         {
-            "color": "purple",
+            "color": "white",
+            "suspect": true,
+            "position": 3,
+            "power": true
+        },
+        {
+            "color": "blue",
             "suspect": true,
             "position": 6,
             "power": true
@@ -522,121 +522,129 @@ fantom plays
     ],
     "tiles": [
         {
-            "color": "black",
-            "suspect": true,
-            "position": 1,
-            "power": true
-        },
-        {
-            "color": "white",
-            "suspect": true,
-            "position": 1,
-            "power": true
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 5,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": true,
-            "position": 7,
-            "power": false
-        },
-        {
             "color": "brown",
             "suspect": true,
-            "position": 4,
-            "power": true
-        },
-        {
-            "color": "blue",
-            "suspect": true,
-            "position": 7,
-            "power": true
-        },
-        {
-            "color": "purple",
-            "suspect": true,
-            "position": 6,
+            "position": 5,
             "power": true
         },
         {
             "color": "red",
             "suspect": true,
-            "position": 0,
-            "power": true
-        }
-    ],
-    "active tiles": [
-        {
-            "color": "white",
-            "suspect": true,
             "position": 1,
+            "power": true
+        },
+        {
+            "color": "purple",
+            "suspect": true,
+            "position": 9,
+            "power": true
+        },
+        {
+            "color": "grey",
+            "suspect": true,
+            "position": 3,
+            "power": false
+        },
+        {
+            "color": "black",
+            "suspect": true,
+            "position": 4,
             "power": true
         },
         {
             "color": "pink",
             "suspect": true,
+            "position": 0,
+            "power": true
+        },
+        {
+            "color": "white",
+            "suspect": true,
+            "position": 3,
+            "power": true
+        },
+        {
+            "color": "blue",
+            "suspect": true,
+            "position": 6,
+            "power": true
+        }
+    ],
+    "active tiles": [
+        {
+            "color": "brown",
+            "suspect": true,
             "position": 5,
+            "power": true
+        },
+        {
+            "color": "red",
+            "suspect": true,
+            "position": 1,
             "power": true
         }
     ]
 }
-16:31:02 :: DEBUG :: send json to player 1
-16:31:02 :: DEBUG :: receive json from player 1
-16:31:02 :: INFO :: question : select character
-16:31:02 :: INFO :: answer : white-1-suspect
-16:31:02 :: DEBUG :: send json to player 1
-16:31:02 :: DEBUG :: receive json from player 1
-16:31:03 :: INFO :: question : select position
-16:31:03 :: INFO :: answer : 0
-16:31:03 :: INFO :: new position : white-0-suspect
-16:31:03 :: DEBUG :: send json to player 1
-16:31:03 :: DEBUG :: receive json from player 1
-16:31:03 :: INFO :: question : activate white power
-16:31:03 :: INFO :: answer  : no
-16:31:03 :: INFO :: --
+18:59:02 :: DEBUG :: send json to player 1
+18:59:02 :: DEBUG :: receive json from player 1
+18:59:03 :: INFO :: question : select character
+18:59:03 :: INFO :: answer : red-1-suspect
+18:59:03 :: DEBUG :: send json to player 1
+18:59:03 :: DEBUG :: receive json from player 1
+18:59:03 :: INFO :: question : activate red power
+18:59:03 :: INFO :: answer  : yes
+18:59:03 :: INFO :: red power activated
+18:59:03 :: INFO :: pink-0-suspect was drawn
+18:59:03 :: DEBUG :: send json to player 1
+18:59:03 :: DEBUG :: receive json from player 1
+18:59:03 :: INFO :: question : select position
+18:59:03 :: INFO :: answer : 2
+18:59:03 :: INFO :: new position : red-2-suspect
+18:59:03 :: INFO :: --
 inspector plays
 --
-16:31:03 :: DEBUG :: {
+18:59:03 :: DEBUG :: {
     "position_carlotta": 4,
     "exit": 22,
     "num_tour": 1,
-    "shadow": 3,
+    "shadow": 2,
     "blocked": [
-        9,
-        7
+        0,
+        1
     ],
     "characters": [
         {
-            "color": "blue",
+            "color": "grey",
             "suspect": true,
-            "position": 7,
-            "power": true
+            "position": 3,
+            "power": false
         },
         {
             "color": "brown",
             "suspect": true,
-            "position": 4,
+            "position": 5,
             "power": true
         },
         {
             "color": "black",
             "suspect": true,
-            "position": 1,
+            "position": 4,
             "power": true
         },
         {
-            "color": "grey",
+            "color": "purple",
             "suspect": true,
-            "position": 7,
-            "power": false
+            "position": 9,
+            "power": true
         },
         {
             "color": "red",
+            "suspect": true,
+            "position": 2,
+            "power": false
+        },
+        {
+            "color": "pink",
             "suspect": true,
             "position": 0,
             "power": true
@@ -644,17 +652,11 @@ inspector plays
         {
             "color": "white",
             "suspect": true,
-            "position": 0,
+            "position": 3,
             "power": true
         },
         {
-            "color": "pink",
-            "suspect": true,
-            "position": 5,
-            "power": true
-        },
-        {
-            "color": "purple",
+            "color": "blue",
             "suspect": true,
             "position": 6,
             "power": true
@@ -662,119 +664,124 @@ inspector plays
     ],
     "tiles": [
         {
-            "color": "black",
-            "suspect": true,
-            "position": 1,
-            "power": true
-        },
-        {
-            "color": "white",
-            "suspect": true,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "pink",
+            "color": "brown",
             "suspect": true,
             "position": 5,
             "power": true
         },
         {
-            "color": "grey",
+            "color": "red",
             "suspect": true,
-            "position": 7,
+            "position": 2,
             "power": false
         },
         {
-            "color": "brown",
+            "color": "purple",
+            "suspect": true,
+            "position": 9,
+            "power": true
+        },
+        {
+            "color": "grey",
+            "suspect": true,
+            "position": 3,
+            "power": false
+        },
+        {
+            "color": "black",
             "suspect": true,
             "position": 4,
             "power": true
         },
         {
-            "color": "blue",
-            "suspect": true,
-            "position": 7,
-            "power": true
-        },
-        {
-            "color": "purple",
-            "suspect": true,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "red",
+            "color": "pink",
             "suspect": true,
             "position": 0,
+            "power": true
+        },
+        {
+            "color": "white",
+            "suspect": true,
+            "position": 3,
+            "power": true
+        },
+        {
+            "color": "blue",
+            "suspect": true,
+            "position": 6,
             "power": true
         }
     ],
     "active tiles": [
         {
-            "color": "pink",
+            "color": "brown",
             "suspect": true,
             "position": 5,
             "power": true
         }
     ]
 }
-16:31:03 :: DEBUG :: send json to player 0
-16:31:03 :: DEBUG :: receive json from player 0
-16:31:03 :: INFO :: question : select character
-16:31:03 :: INFO :: answer : pink-5-suspect
-16:31:03 :: DEBUG :: send json to player 0
-16:31:03 :: DEBUG :: receive json from player 0
-16:31:03 :: INFO :: question : select position
-16:31:03 :: INFO :: answer : 6
-16:31:03 :: INFO :: new position : pink-6-suspect
-16:31:03 :: INFO :: the fantom does not scream.
-16:31:03 :: INFO :: 
+18:59:03 :: DEBUG :: send json to player 0
+18:59:03 :: DEBUG :: receive json from player 0
+18:59:03 :: INFO :: question : select character
+18:59:03 :: INFO :: answer : brown-5-suspect
+18:59:03 :: DEBUG :: send json to player 0
+18:59:03 :: DEBUG :: receive json from player 0
+18:59:03 :: INFO :: question : activate brown power
+18:59:03 :: INFO :: answer  : yes
+18:59:03 :: INFO :: brown power activated
+18:59:03 :: DEBUG :: send json to player 0
+18:59:03 :: DEBUG :: receive json from player 0
+18:59:03 :: INFO :: question : select position
+18:59:03 :: INFO :: answer : 4
+18:59:03 :: INFO :: new position : brown-4-suspect
+18:59:03 :: INFO :: The fantom screams.
+18:59:03 :: INFO :: 
 ------------------
-16:31:03 :: INFO :: 
-blue-7-suspectTour: 2,
-Position Carlotta / exit: 10/22,
-Shadow: 3,
-blocked: {9, 7}
+18:59:03 :: INFO :: 
+grey-3-cleanTour: 2,
+Position Carlotta / exit: 9/22,
+Shadow: 2,
+blocked: {0, 1}
 brown-4-cleanTour: 2,
-Position Carlotta / exit: 10/22,
-Shadow: 3,
-blocked: {9, 7}
-black-1-cleanTour: 2,
-Position Carlotta / exit: 10/22,
-Shadow: 3,
-blocked: {9, 7}
-grey-7-suspectTour: 2,
-Position Carlotta / exit: 10/22,
-Shadow: 3,
-blocked: {9, 7}
-red-0-suspectTour: 2,
-Position Carlotta / exit: 10/22,
-Shadow: 3,
-blocked: {9, 7}
-white-0-suspectTour: 2,
-Position Carlotta / exit: 10/22,
-Shadow: 3,
-blocked: {9, 7}
-pink-6-suspectTour: 2,
-Position Carlotta / exit: 10/22,
-Shadow: 3,
-blocked: {9, 7}
-purple-6-suspect
-16:31:03 :: DEBUG :: {
-    "position_carlotta": 10,
+Position Carlotta / exit: 9/22,
+Shadow: 2,
+blocked: {0, 1}
+black-4-cleanTour: 2,
+Position Carlotta / exit: 9/22,
+Shadow: 2,
+blocked: {0, 1}
+purple-9-suspectTour: 2,
+Position Carlotta / exit: 9/22,
+Shadow: 2,
+blocked: {0, 1}
+red-2-suspectTour: 2,
+Position Carlotta / exit: 9/22,
+Shadow: 2,
+blocked: {0, 1}
+pink-0-suspectTour: 2,
+Position Carlotta / exit: 9/22,
+Shadow: 2,
+blocked: {0, 1}
+white-3-cleanTour: 2,
+Position Carlotta / exit: 9/22,
+Shadow: 2,
+blocked: {0, 1}
+blue-6-suspect
+18:59:03 :: DEBUG :: {
+    "position_carlotta": 9,
     "exit": 22,
     "num_tour": 2,
-    "shadow": 3,
+    "shadow": 2,
     "blocked": [
-        9,
-        7
+        0,
+        1
     ],
     "characters": [
         {
-            "color": "blue",
-            "suspect": true,
-            "position": 7,
+            "color": "grey",
+            "suspect": false,
+            "position": 3,
             "power": true
         },
         {
@@ -786,35 +793,35 @@ purple-6-suspect
         {
             "color": "black",
             "suspect": false,
-            "position": 1,
+            "position": 4,
             "power": true
         },
         {
-            "color": "grey",
+            "color": "purple",
             "suspect": true,
-            "position": 7,
+            "position": 9,
             "power": true
         },
         {
             "color": "red",
+            "suspect": true,
+            "position": 2,
+            "power": true
+        },
+        {
+            "color": "pink",
             "suspect": true,
             "position": 0,
             "power": true
         },
         {
             "color": "white",
-            "suspect": true,
-            "position": 0,
+            "suspect": false,
+            "position": 3,
             "power": true
         },
         {
-            "color": "pink",
-            "suspect": true,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "purple",
+            "color": "blue",
             "suspect": true,
             "position": 6,
             "power": true
@@ -822,73 +829,73 @@ purple-6-suspect
     ],
     "tiles": [
         {
-            "color": "black",
-            "suspect": false,
-            "position": 1,
-            "power": true
-        },
-        {
-            "color": "white",
-            "suspect": true,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": true,
-            "position": 7,
-            "power": true
-        },
-        {
             "color": "brown",
             "suspect": false,
             "position": 4,
             "power": true
         },
         {
-            "color": "blue",
+            "color": "red",
             "suspect": true,
-            "position": 7,
+            "position": 2,
             "power": true
         },
         {
             "color": "purple",
             "suspect": true,
-            "position": 6,
+            "position": 9,
             "power": true
         },
         {
-            "color": "red",
+            "color": "grey",
+            "suspect": false,
+            "position": 3,
+            "power": true
+        },
+        {
+            "color": "black",
+            "suspect": false,
+            "position": 4,
+            "power": true
+        },
+        {
+            "color": "pink",
             "suspect": true,
             "position": 0,
+            "power": true
+        },
+        {
+            "color": "white",
+            "suspect": false,
+            "position": 3,
+            "power": true
+        },
+        {
+            "color": "blue",
+            "suspect": true,
+            "position": 6,
             "power": true
         }
     ],
     "active tiles": []
 }
-16:31:03 :: INFO :: --
+18:59:03 :: INFO :: --
 fantom plays
 --
-16:31:03 :: DEBUG :: {
-    "position_carlotta": 10,
+18:59:03 :: DEBUG :: {
+    "position_carlotta": 9,
     "exit": 22,
     "num_tour": 2,
-    "shadow": 3,
+    "shadow": 2,
     "blocked": [
-        9,
-        7
+        0,
+        1
     ],
     "characters": [
         {
-            "color": "blue",
-            "suspect": true,
-            "position": 7,
+            "color": "grey",
+            "suspect": false,
+            "position": 3,
             "power": true
         },
         {
@@ -900,35 +907,35 @@ fantom plays
         {
             "color": "black",
             "suspect": false,
-            "position": 1,
+            "position": 4,
             "power": true
         },
         {
-            "color": "grey",
+            "color": "purple",
             "suspect": true,
-            "position": 7,
+            "position": 9,
             "power": true
         },
         {
             "color": "red",
+            "suspect": true,
+            "position": 2,
+            "power": true
+        },
+        {
+            "color": "pink",
             "suspect": true,
             "position": 0,
             "power": true
         },
         {
             "color": "white",
-            "suspect": true,
-            "position": 0,
+            "suspect": false,
+            "position": 3,
             "power": true
         },
         {
-            "color": "pink",
-            "suspect": true,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "purple",
+            "color": "blue",
             "suspect": true,
             "position": 6,
             "power": true
@@ -936,111 +943,118 @@ fantom plays
     ],
     "tiles": [
         {
-            "color": "black",
+            "color": "brown",
             "suspect": false,
-            "position": 1,
+            "position": 4,
             "power": true
         },
         {
-            "color": "white",
+            "color": "red",
             "suspect": true,
-            "position": 0,
+            "position": 2,
+            "power": true
+        },
+        {
+            "color": "purple",
+            "suspect": true,
+            "position": 9,
+            "power": true
+        },
+        {
+            "color": "grey",
+            "suspect": false,
+            "position": 3,
+            "power": true
+        },
+        {
+            "color": "black",
+            "suspect": false,
+            "position": 4,
             "power": true
         },
         {
             "color": "pink",
             "suspect": true,
-            "position": 6,
+            "position": 0,
             "power": true
         },
         {
-            "color": "grey",
-            "suspect": true,
-            "position": 7,
-            "power": true
-        },
-        {
-            "color": "brown",
+            "color": "white",
             "suspect": false,
-            "position": 4,
+            "position": 3,
             "power": true
         },
         {
             "color": "blue",
             "suspect": true,
-            "position": 7,
-            "power": true
-        },
-        {
-            "color": "purple",
-            "suspect": true,
             "position": 6,
-            "power": true
-        },
-        {
-            "color": "red",
-            "suspect": true,
-            "position": 0,
             "power": true
         }
     ],
     "active tiles": [
         {
-            "color": "brown",
+            "color": "black",
             "suspect": false,
             "position": 4,
             "power": true
         },
         {
-            "color": "blue",
-            "suspect": true,
-            "position": 7,
-            "power": true
-        },
-        {
-            "color": "purple",
-            "suspect": true,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "red",
+            "color": "pink",
             "suspect": true,
             "position": 0,
+            "power": true
+        },
+        {
+            "color": "white",
+            "suspect": false,
+            "position": 3,
+            "power": true
+        },
+        {
+            "color": "blue",
+            "suspect": true,
+            "position": 6,
             "power": true
         }
     ]
 }
-16:31:03 :: DEBUG :: send json to player 1
-16:31:03 :: DEBUG :: receive json from player 1
-16:31:03 :: INFO :: question : select character
-16:31:03 :: INFO :: answer : purple-6-suspect
-16:31:03 :: DEBUG :: send json to player 1
-16:31:03 :: DEBUG :: receive json from player 1
-16:31:03 :: INFO :: question : activate purple power
-16:31:03 :: INFO :: answer  : no
-16:31:03 :: DEBUG :: send json to player 1
-16:31:03 :: DEBUG :: receive json from player 1
-16:31:03 :: INFO :: question : select position
-16:31:03 :: INFO :: answer : 5
-16:31:03 :: INFO :: new position : purple-5-suspect
-16:31:03 :: INFO :: --
+18:59:03 :: DEBUG :: send json to player 1
+18:59:03 :: DEBUG :: receive json from player 1
+18:59:03 :: INFO :: question : select character
+18:59:03 :: INFO :: answer : blue-6-suspect
+18:59:03 :: DEBUG :: send json to player 1
+18:59:03 :: DEBUG :: receive json from player 1
+18:59:03 :: INFO :: question : activate blue power
+18:59:03 :: INFO :: answer  : yes
+18:59:03 :: INFO :: blue power activated
+18:59:03 :: DEBUG :: send json to player 1
+18:59:03 :: DEBUG :: receive json from player 1
+18:59:03 :: DEBUG :: send json to player 1
+18:59:03 :: DEBUG :: receive json from player 1
+18:59:03 :: INFO :: question : blue character power exit
+18:59:03 :: INFO :: answer : {0, 1}
+18:59:03 :: DEBUG :: send json to player 1
+18:59:03 :: DEBUG :: receive json from player 1
+18:59:03 :: INFO :: question : select position
+18:59:03 :: INFO :: answer : 7
+18:59:03 :: INFO :: new position : blue-7-suspect
+18:59:03 :: INFO :: --
 inspector plays
 --
-16:31:03 :: DEBUG :: {
-    "position_carlotta": 10,
+18:59:03 :: DEBUG :: {
+    "position_carlotta": 9,
     "exit": 22,
     "num_tour": 2,
-    "shadow": 3,
+    "shadow": 2,
     "blocked": [
-        9,
-        7
+        0,
+        1
     ],
     "characters": [
         {
-            "color": "blue",
-            "suspect": true,
-            "position": 7,
+            "color": "grey",
+            "suspect": false,
+            "position": 3,
             "power": true
         },
         {
@@ -1052,1625 +1066,1028 @@ inspector plays
         {
             "color": "black",
             "suspect": false,
-            "position": 1,
+            "position": 4,
             "power": true
         },
         {
-            "color": "grey",
+            "color": "purple",
             "suspect": true,
-            "position": 7,
+            "position": 9,
             "power": true
         },
         {
             "color": "red",
+            "suspect": true,
+            "position": 2,
+            "power": true
+        },
+        {
+            "color": "pink",
             "suspect": true,
             "position": 0,
             "power": true
         },
         {
             "color": "white",
-            "suspect": true,
-            "position": 0,
+            "suspect": false,
+            "position": 3,
             "power": true
         },
         {
-            "color": "pink",
+            "color": "blue",
             "suspect": true,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "purple",
-            "suspect": true,
-            "position": 5,
-            "power": true
+            "position": 7,
+            "power": false
         }
     ],
     "tiles": [
         {
-            "color": "black",
-            "suspect": false,
-            "position": 1,
-            "power": true
-        },
-        {
-            "color": "white",
-            "suspect": true,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": true,
-            "position": 7,
-            "power": true
-        },
-        {
             "color": "brown",
             "suspect": false,
             "position": 4,
             "power": true
         },
         {
-            "color": "blue",
+            "color": "red",
             "suspect": true,
-            "position": 7,
+            "position": 2,
             "power": true
         },
         {
             "color": "purple",
             "suspect": true,
-            "position": 5,
+            "position": 9,
             "power": true
         },
         {
-            "color": "red",
+            "color": "grey",
+            "suspect": false,
+            "position": 3,
+            "power": true
+        },
+        {
+            "color": "black",
+            "suspect": false,
+            "position": 4,
+            "power": true
+        },
+        {
+            "color": "pink",
             "suspect": true,
             "position": 0,
             "power": true
-        }
-    ],
-    "active tiles": [
+        },
         {
-            "color": "brown",
+            "color": "white",
             "suspect": false,
-            "position": 4,
+            "position": 3,
             "power": true
         },
         {
             "color": "blue",
             "suspect": true,
             "position": 7,
+            "power": false
+        }
+    ],
+    "active tiles": [
+        {
+            "color": "black",
+            "suspect": false,
+            "position": 4,
             "power": true
         },
         {
-            "color": "red",
+            "color": "pink",
             "suspect": true,
             "position": 0,
+            "power": true
+        },
+        {
+            "color": "white",
+            "suspect": false,
+            "position": 3,
             "power": true
         }
     ]
 }
-16:31:03 :: DEBUG :: send json to player 0
-16:31:03 :: DEBUG :: receive json from player 0
-16:31:03 :: INFO :: question : select character
-16:31:03 :: INFO :: answer : brown-4-clean
-16:31:03 :: DEBUG :: send json to player 0
-16:31:03 :: DEBUG :: receive json from player 0
-16:31:03 :: INFO :: question : activate brown power
-16:31:03 :: INFO :: answer  : yes
-16:31:03 :: INFO :: brown power activated
-16:31:03 :: DEBUG :: send json to player 0
-16:31:03 :: DEBUG :: receive json from player 0
-16:31:03 :: INFO :: question : select position
-16:31:03 :: INFO :: answer : 5
-16:31:03 :: INFO :: new position : brown-5-clean
-16:31:03 :: INFO :: --
+18:59:03 :: DEBUG :: send json to player 0
+18:59:03 :: DEBUG :: receive json from player 0
+18:59:03 :: INFO :: question : select character
+18:59:03 :: INFO :: answer : pink-0-suspect
+18:59:03 :: DEBUG :: send json to player 0
+18:59:03 :: DEBUG :: receive json from player 0
+18:59:03 :: INFO :: question : select position
+18:59:03 :: INFO :: answer : 4
+18:59:03 :: INFO :: new position : pink-4-suspect
+18:59:03 :: INFO :: --
 inspector plays
 --
-16:31:03 :: DEBUG :: {
-    "position_carlotta": 10,
+18:59:03 :: DEBUG :: {
+    "position_carlotta": 9,
     "exit": 22,
     "num_tour": 2,
-    "shadow": 3,
+    "shadow": 2,
     "blocked": [
-        9,
-        7
+        0,
+        1
     ],
     "characters": [
         {
-            "color": "blue",
-            "suspect": true,
-            "position": 7,
+            "color": "grey",
+            "suspect": false,
+            "position": 3,
             "power": true
         },
         {
             "color": "brown",
             "suspect": false,
-            "position": 5,
-            "power": false
+            "position": 4,
+            "power": true
         },
         {
             "color": "black",
             "suspect": false,
-            "position": 1,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": true,
-            "position": 7,
-            "power": true
-        },
-        {
-            "color": "red",
-            "suspect": true,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "white",
-            "suspect": true,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 6,
+            "position": 4,
             "power": true
         },
         {
             "color": "purple",
             "suspect": true,
-            "position": 5,
+            "position": 9,
             "power": true
+        },
+        {
+            "color": "red",
+            "suspect": true,
+            "position": 2,
+            "power": true
+        },
+        {
+            "color": "pink",
+            "suspect": true,
+            "position": 4,
+            "power": true
+        },
+        {
+            "color": "white",
+            "suspect": false,
+            "position": 3,
+            "power": true
+        },
+        {
+            "color": "blue",
+            "suspect": true,
+            "position": 7,
+            "power": false
         }
     ],
     "tiles": [
         {
-            "color": "black",
-            "suspect": false,
-            "position": 1,
-            "power": true
-        },
-        {
-            "color": "white",
-            "suspect": true,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": true,
-            "position": 7,
-            "power": true
-        },
-        {
             "color": "brown",
             "suspect": false,
-            "position": 5,
-            "power": false
+            "position": 4,
+            "power": true
         },
         {
-            "color": "blue",
+            "color": "red",
             "suspect": true,
-            "position": 7,
+            "position": 2,
             "power": true
         },
         {
             "color": "purple",
             "suspect": true,
-            "position": 5,
+            "position": 9,
             "power": true
         },
         {
-            "color": "red",
-            "suspect": true,
-            "position": 0,
+            "color": "grey",
+            "suspect": false,
+            "position": 3,
             "power": true
-        }
-    ],
-    "active tiles": [
+        },
+        {
+            "color": "black",
+            "suspect": false,
+            "position": 4,
+            "power": true
+        },
+        {
+            "color": "pink",
+            "suspect": true,
+            "position": 4,
+            "power": true
+        },
+        {
+            "color": "white",
+            "suspect": false,
+            "position": 3,
+            "power": true
+        },
         {
             "color": "blue",
             "suspect": true,
             "position": 7,
+            "power": false
+        }
+    ],
+    "active tiles": [
+        {
+            "color": "black",
+            "suspect": false,
+            "position": 4,
             "power": true
         },
         {
-            "color": "red",
-            "suspect": true,
-            "position": 0,
+            "color": "white",
+            "suspect": false,
+            "position": 3,
             "power": true
         }
     ]
 }
-16:31:03 :: DEBUG :: send json to player 0
-16:31:03 :: DEBUG :: receive json from player 0
-16:31:03 :: INFO :: question : select character
-16:31:03 :: INFO :: answer : blue-7-suspect
-16:31:03 :: DEBUG :: send json to player 0
-16:31:03 :: DEBUG :: receive json from player 0
-16:31:03 :: INFO :: question : activate blue power
-16:31:03 :: INFO :: answer  : yes
-16:31:03 :: INFO :: blue power activated
-16:31:03 :: DEBUG :: send json to player 0
-16:31:03 :: DEBUG :: receive json from player 0
-16:31:03 :: DEBUG :: send json to player 0
-16:31:03 :: DEBUG :: receive json from player 0
-16:31:04 :: INFO :: question : blue character power exit
-16:31:04 :: INFO :: answer : {3, 7}
-16:31:04 :: DEBUG :: send json to player 0
-16:31:04 :: DEBUG :: receive json from player 0
-16:31:04 :: INFO :: question : select position
-16:31:04 :: INFO :: answer : 6
-16:31:04 :: INFO :: new position : blue-6-suspect
-16:31:04 :: INFO :: --
+18:59:03 :: DEBUG :: send json to player 0
+18:59:03 :: DEBUG :: receive json from player 0
+18:59:04 :: INFO :: question : select character
+18:59:04 :: INFO :: answer : black-4-clean
+18:59:04 :: DEBUG :: send json to player 0
+18:59:04 :: DEBUG :: receive json from player 0
+18:59:04 :: INFO :: question : select position
+18:59:04 :: INFO :: answer : 0
+18:59:04 :: INFO :: new position : black-0-clean
+18:59:04 :: DEBUG :: send json to player 0
+18:59:04 :: DEBUG :: receive json from player 0
+18:59:04 :: INFO :: question : activate black power
+18:59:04 :: INFO :: answer  : no
+18:59:04 :: INFO :: --
 fantom plays
 --
-16:31:04 :: DEBUG :: {
-    "position_carlotta": 10,
+18:59:04 :: DEBUG :: {
+    "position_carlotta": 9,
     "exit": 22,
     "num_tour": 2,
-    "shadow": 3,
+    "shadow": 2,
     "blocked": [
-        3,
-        7
+        0,
+        1
     ],
     "characters": [
         {
-            "color": "blue",
-            "suspect": true,
-            "position": 6,
-            "power": false
+            "color": "grey",
+            "suspect": false,
+            "position": 3,
+            "power": true
         },
         {
             "color": "brown",
             "suspect": false,
-            "position": 5,
-            "power": false
+            "position": 4,
+            "power": true
         },
         {
             "color": "black",
             "suspect": false,
-            "position": 1,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": true,
-            "position": 7,
-            "power": true
-        },
-        {
-            "color": "red",
-            "suspect": true,
             "position": 0,
-            "power": true
-        },
-        {
-            "color": "white",
-            "suspect": true,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "pink",
-            "suspect": true,
-            "position": 6,
             "power": true
         },
         {
             "color": "purple",
             "suspect": true,
-            "position": 5,
+            "position": 9,
             "power": true
+        },
+        {
+            "color": "red",
+            "suspect": true,
+            "position": 2,
+            "power": true
+        },
+        {
+            "color": "pink",
+            "suspect": true,
+            "position": 4,
+            "power": true
+        },
+        {
+            "color": "white",
+            "suspect": false,
+            "position": 3,
+            "power": true
+        },
+        {
+            "color": "blue",
+            "suspect": true,
+            "position": 7,
+            "power": false
         }
     ],
     "tiles": [
         {
-            "color": "black",
+            "color": "brown",
             "suspect": false,
-            "position": 1,
+            "position": 4,
             "power": true
         },
         {
-            "color": "white",
+            "color": "red",
             "suspect": true,
+            "position": 2,
+            "power": true
+        },
+        {
+            "color": "purple",
+            "suspect": true,
+            "position": 9,
+            "power": true
+        },
+        {
+            "color": "grey",
+            "suspect": false,
+            "position": 3,
+            "power": true
+        },
+        {
+            "color": "black",
+            "suspect": false,
             "position": 0,
             "power": true
         },
         {
             "color": "pink",
             "suspect": true,
-            "position": 6,
+            "position": 4,
             "power": true
         },
         {
-            "color": "grey",
-            "suspect": true,
-            "position": 7,
-            "power": true
-        },
-        {
-            "color": "brown",
+            "color": "white",
             "suspect": false,
-            "position": 5,
-            "power": false
+            "position": 3,
+            "power": true
         },
         {
             "color": "blue",
             "suspect": true,
-            "position": 6,
+            "position": 7,
             "power": false
-        },
-        {
-            "color": "purple",
-            "suspect": true,
-            "position": 5,
-            "power": true
-        },
-        {
-            "color": "red",
-            "suspect": true,
-            "position": 0,
-            "power": true
         }
     ],
     "active tiles": [
         {
-            "color": "red",
-            "suspect": true,
-            "position": 0,
+            "color": "white",
+            "suspect": false,
+            "position": 3,
             "power": true
         }
     ]
 }
-16:31:04 :: DEBUG :: send json to player 1
-16:31:04 :: DEBUG :: receive json from player 1
-16:31:04 :: INFO :: question : select character
-16:31:04 :: INFO :: answer : red-0-suspect
-16:31:04 :: DEBUG :: send json to player 1
-16:31:04 :: DEBUG :: receive json from player 1
-16:31:04 :: INFO :: question : activate red power
-16:31:04 :: INFO :: answer  : no
-16:31:04 :: DEBUG :: send json to player 1
-16:31:04 :: DEBUG :: receive json from player 1
-16:31:04 :: INFO :: question : select position
-16:31:04 :: INFO :: answer : 1
-16:31:04 :: INFO :: new position : red-1-suspect
-16:31:04 :: DEBUG :: send json to player 1
-16:31:04 :: DEBUG :: receive json from player 1
-16:31:04 :: INFO :: question : activate red power
-16:31:04 :: INFO :: answer  : no
-16:31:04 :: INFO :: The fantom screams.
-16:31:04 :: INFO :: 
+18:59:04 :: DEBUG :: send json to player 1
+18:59:04 :: DEBUG :: receive json from player 1
+18:59:04 :: INFO :: question : select character
+18:59:04 :: INFO :: answer : white-3-clean
+18:59:04 :: DEBUG :: send json to player 1
+18:59:04 :: DEBUG :: receive json from player 1
+18:59:04 :: INFO :: question : select position
+18:59:04 :: INFO :: answer : 7
+18:59:04 :: INFO :: new position : white-7-clean
+18:59:04 :: DEBUG :: send json to player 1
+18:59:04 :: DEBUG :: receive json from player 1
+18:59:04 :: INFO :: question : activate white power
+18:59:04 :: INFO :: answer  : yes
+18:59:04 :: INFO :: white power activated
+18:59:04 :: DEBUG :: send json to player 1
+18:59:04 :: DEBUG :: receive json from player 1
+18:59:04 :: INFO :: question : white character power move blue
+18:59:04 :: INFO :: answer : 3
+18:59:04 :: INFO :: new position : blue-3-suspect
+18:59:04 :: INFO :: The fantom screams.
+18:59:04 :: INFO :: 
 ------------------
-16:31:04 :: INFO :: 
-blue-6-cleanTour: 3,
-Position Carlotta / exit: 13/22,
-Shadow: 3,
-blocked: {3, 7}
-brown-5-cleanTour: 3,
-Position Carlotta / exit: 13/22,
-Shadow: 3,
-blocked: {3, 7}
-black-1-cleanTour: 3,
-Position Carlotta / exit: 13/22,
-Shadow: 3,
-blocked: {3, 7}
-grey-7-suspectTour: 3,
-Position Carlotta / exit: 13/22,
-Shadow: 3,
-blocked: {3, 7}
-red-1-cleanTour: 3,
-Position Carlotta / exit: 13/22,
-Shadow: 3,
-blocked: {3, 7}
-white-0-suspectTour: 3,
-Position Carlotta / exit: 13/22,
-Shadow: 3,
-blocked: {3, 7}
-pink-6-cleanTour: 3,
-Position Carlotta / exit: 13/22,
-Shadow: 3,
-blocked: {3, 7}
-purple-5-clean
-16:31:04 :: DEBUG :: {
-    "position_carlotta": 13,
+18:59:04 :: INFO :: 
+grey-3-cleanTour: 3,
+Position Carlotta / exit: 12/22,
+Shadow: 2,
+blocked: {0, 1}
+brown-4-cleanTour: 3,
+Position Carlotta / exit: 12/22,
+Shadow: 2,
+blocked: {0, 1}
+black-0-cleanTour: 3,
+Position Carlotta / exit: 12/22,
+Shadow: 2,
+blocked: {0, 1}
+purple-9-suspectTour: 3,
+Position Carlotta / exit: 12/22,
+Shadow: 2,
+blocked: {0, 1}
+red-2-suspectTour: 3,
+Position Carlotta / exit: 12/22,
+Shadow: 2,
+blocked: {0, 1}
+pink-4-cleanTour: 3,
+Position Carlotta / exit: 12/22,
+Shadow: 2,
+blocked: {0, 1}
+white-7-cleanTour: 3,
+Position Carlotta / exit: 12/22,
+Shadow: 2,
+blocked: {0, 1}
+blue-3-clean
+18:59:04 :: DEBUG :: {
+    "position_carlotta": 12,
     "exit": 22,
     "num_tour": 3,
-    "shadow": 3,
+    "shadow": 2,
     "blocked": [
-        3,
-        7
+        0,
+        1
     ],
     "characters": [
         {
-            "color": "blue",
+            "color": "grey",
             "suspect": false,
-            "position": 6,
+            "position": 3,
             "power": true
         },
         {
             "color": "brown",
             "suspect": false,
-            "position": 5,
+            "position": 4,
             "power": true
         },
         {
             "color": "black",
             "suspect": false,
-            "position": 1,
+            "position": 0,
             "power": true
         },
         {
-            "color": "grey",
+            "color": "purple",
             "suspect": true,
-            "position": 7,
+            "position": 9,
             "power": true
         },
         {
             "color": "red",
-            "suspect": false,
-            "position": 1,
-            "power": true
-        },
-        {
-            "color": "white",
             "suspect": true,
-            "position": 0,
+            "position": 2,
             "power": true
         },
         {
             "color": "pink",
             "suspect": false,
-            "position": 6,
+            "position": 4,
             "power": true
         },
         {
-            "color": "purple",
+            "color": "white",
             "suspect": false,
-            "position": 5,
+            "position": 7,
+            "power": true
+        },
+        {
+            "color": "blue",
+            "suspect": false,
+            "position": 3,
             "power": true
         }
     ],
     "tiles": [
         {
-            "color": "black",
+            "color": "brown",
             "suspect": false,
-            "position": 1,
+            "position": 4,
             "power": true
         },
         {
-            "color": "white",
+            "color": "red",
             "suspect": true,
+            "position": 2,
+            "power": true
+        },
+        {
+            "color": "purple",
+            "suspect": true,
+            "position": 9,
+            "power": true
+        },
+        {
+            "color": "grey",
+            "suspect": false,
+            "position": 3,
+            "power": true
+        },
+        {
+            "color": "black",
+            "suspect": false,
             "position": 0,
             "power": true
         },
         {
             "color": "pink",
             "suspect": false,
-            "position": 6,
+            "position": 4,
             "power": true
         },
         {
-            "color": "grey",
-            "suspect": true,
-            "position": 7,
-            "power": true
-        },
-        {
-            "color": "brown",
+            "color": "white",
             "suspect": false,
-            "position": 5,
+            "position": 7,
             "power": true
         },
         {
             "color": "blue",
             "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "purple",
-            "suspect": false,
-            "position": 5,
-            "power": true
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 1,
+            "position": 3,
             "power": true
         }
     ],
     "active tiles": []
 }
-16:31:04 :: INFO :: -
+18:59:04 :: INFO :: -
 shuffle 8 tiles
 -
-16:31:04 :: INFO :: --
+18:59:04 :: INFO :: --
 inspector plays
 --
-16:31:04 :: DEBUG :: {
-    "position_carlotta": 13,
+18:59:04 :: DEBUG :: {
+    "position_carlotta": 12,
     "exit": 22,
     "num_tour": 3,
-    "shadow": 3,
+    "shadow": 2,
     "blocked": [
-        3,
-        7
+        0,
+        1
     ],
     "characters": [
         {
-            "color": "blue",
+            "color": "grey",
             "suspect": false,
-            "position": 6,
+            "position": 3,
             "power": true
         },
         {
             "color": "brown",
             "suspect": false,
-            "position": 5,
+            "position": 4,
             "power": true
         },
         {
             "color": "black",
             "suspect": false,
-            "position": 1,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": true,
-            "position": 7,
-            "power": true
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 1,
-            "power": true
-        },
-        {
-            "color": "white",
-            "suspect": true,
             "position": 0,
             "power": true
         },
         {
-            "color": "pink",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
             "color": "purple",
-            "suspect": false,
-            "position": 5,
-            "power": true
-        }
-    ],
-    "tiles": [
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 5,
-            "power": true
-        },
-        {
-            "color": "pink",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 1,
-            "power": true
-        },
-        {
-            "color": "purple",
-            "suspect": false,
-            "position": 5,
-            "power": true
-        },
-        {
-            "color": "white",
             "suspect": true,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "blue",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 1,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": true,
-            "position": 7,
-            "power": true
-        }
-    ],
-    "active tiles": [
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 5,
-            "power": true
-        },
-        {
-            "color": "pink",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 1,
-            "power": true
-        },
-        {
-            "color": "purple",
-            "suspect": false,
-            "position": 5,
-            "power": true
-        }
-    ]
-}
-16:31:04 :: DEBUG :: send json to player 0
-16:31:04 :: DEBUG :: receive json from player 0
-16:31:04 :: INFO :: question : select character
-16:31:04 :: INFO :: answer : brown-5-clean
-16:31:04 :: DEBUG :: send json to player 0
-16:31:04 :: DEBUG :: receive json from player 0
-16:31:04 :: INFO :: question : activate brown power
-16:31:04 :: INFO :: answer  : yes
-16:31:04 :: INFO :: brown power activated
-16:31:04 :: DEBUG :: send json to player 0
-16:31:04 :: DEBUG :: receive json from player 0
-16:31:04 :: INFO :: question : select position
-16:31:04 :: INFO :: answer : 6
-16:31:04 :: DEBUG :: more than one character moves
-16:31:04 :: INFO :: new position : brown-6-clean
-16:31:04 :: INFO :: new position : purple-6-clean
-16:31:04 :: INFO :: --
-fantom plays
---
-16:31:04 :: DEBUG :: {
-    "position_carlotta": 13,
-    "exit": 22,
-    "num_tour": 3,
-    "shadow": 3,
-    "blocked": [
-        3,
-        7
-    ],
-    "characters": [
-        {
-            "color": "blue",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 6,
-            "power": false
-        },
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 1,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": true,
-            "position": 7,
-            "power": true
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 1,
-            "power": true
-        },
-        {
-            "color": "white",
-            "suspect": true,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "pink",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "purple",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        }
-    ],
-    "tiles": [
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 6,
-            "power": false
-        },
-        {
-            "color": "pink",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 1,
-            "power": true
-        },
-        {
-            "color": "purple",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "white",
-            "suspect": true,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "blue",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 1,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": true,
-            "position": 7,
-            "power": true
-        }
-    ],
-    "active tiles": [
-        {
-            "color": "pink",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 1,
-            "power": true
-        },
-        {
-            "color": "purple",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        }
-    ]
-}
-16:31:04 :: DEBUG :: send json to player 1
-16:31:04 :: DEBUG :: receive json from player 1
-16:31:04 :: INFO :: question : select character
-16:31:04 :: INFO :: answer : pink-6-clean
-16:31:04 :: DEBUG :: send json to player 1
-16:31:04 :: DEBUG :: receive json from player 1
-16:31:04 :: INFO :: question : select position
-16:31:04 :: INFO :: answer : 9
-16:31:04 :: INFO :: new position : pink-9-clean
-16:31:04 :: INFO :: --
-fantom plays
---
-16:31:04 :: DEBUG :: {
-    "position_carlotta": 13,
-    "exit": 22,
-    "num_tour": 3,
-    "shadow": 3,
-    "blocked": [
-        3,
-        7
-    ],
-    "characters": [
-        {
-            "color": "blue",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 6,
-            "power": false
-        },
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 1,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": true,
-            "position": 7,
-            "power": true
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 1,
-            "power": true
-        },
-        {
-            "color": "white",
-            "suspect": true,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "pink",
-            "suspect": false,
-            "position": 9,
-            "power": true
-        },
-        {
-            "color": "purple",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        }
-    ],
-    "tiles": [
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 6,
-            "power": false
-        },
-        {
-            "color": "pink",
-            "suspect": false,
             "position": 9,
             "power": true
         },
         {
             "color": "red",
-            "suspect": false,
-            "position": 1,
+            "suspect": true,
+            "position": 2,
             "power": true
         },
         {
-            "color": "purple",
+            "color": "pink",
             "suspect": false,
-            "position": 6,
+            "position": 4,
             "power": true
         },
         {
             "color": "white",
-            "suspect": true,
-            "position": 0,
+            "suspect": false,
+            "position": 7,
             "power": true
         },
         {
             "color": "blue",
             "suspect": false,
-            "position": 6,
+            "position": 3,
+            "power": true
+        }
+    ],
+    "tiles": [
+        {
+            "color": "grey",
+            "suspect": false,
+            "position": 3,
             "power": true
         },
         {
             "color": "black",
             "suspect": false,
-            "position": 1,
+            "position": 0,
             "power": true
         },
         {
-            "color": "grey",
+            "color": "red",
             "suspect": true,
+            "position": 2,
+            "power": true
+        },
+        {
+            "color": "pink",
+            "suspect": false,
+            "position": 4,
+            "power": true
+        },
+        {
+            "color": "purple",
+            "suspect": true,
+            "position": 9,
+            "power": true
+        },
+        {
+            "color": "brown",
+            "suspect": false,
+            "position": 4,
+            "power": true
+        },
+        {
+            "color": "white",
+            "suspect": false,
             "position": 7,
+            "power": true
+        },
+        {
+            "color": "blue",
+            "suspect": false,
+            "position": 3,
+            "power": true
+        }
+    ],
+    "active tiles": [
+        {
+            "color": "grey",
+            "suspect": false,
+            "position": 3,
+            "power": true
+        },
+        {
+            "color": "black",
+            "suspect": false,
+            "position": 0,
+            "power": true
+        },
+        {
+            "color": "red",
+            "suspect": true,
+            "position": 2,
+            "power": true
+        },
+        {
+            "color": "pink",
+            "suspect": false,
+            "position": 4,
+            "power": true
+        }
+    ]
+}
+18:59:04 :: DEBUG :: send json to player 0
+18:59:04 :: DEBUG :: receive json from player 0
+18:59:04 :: INFO :: question : select character
+18:59:04 :: INFO :: answer : black-0-clean
+18:59:04 :: DEBUG :: send json to player 0
+18:59:04 :: DEBUG :: receive json from player 0
+18:59:04 :: INFO :: question : select position
+18:59:04 :: INFO :: answer : 4
+18:59:04 :: INFO :: new position : black-4-clean
+18:59:04 :: DEBUG :: send json to player 0
+18:59:04 :: DEBUG :: receive json from player 0
+18:59:04 :: INFO :: question : activate black power
+18:59:04 :: INFO :: answer  : no
+18:59:04 :: INFO :: --
+fantom plays
+--
+18:59:04 :: DEBUG :: {
+    "position_carlotta": 12,
+    "exit": 22,
+    "num_tour": 3,
+    "shadow": 2,
+    "blocked": [
+        0,
+        1
+    ],
+    "characters": [
+        {
+            "color": "grey",
+            "suspect": false,
+            "position": 3,
+            "power": true
+        },
+        {
+            "color": "brown",
+            "suspect": false,
+            "position": 4,
+            "power": true
+        },
+        {
+            "color": "black",
+            "suspect": false,
+            "position": 4,
+            "power": true
+        },
+        {
+            "color": "purple",
+            "suspect": true,
+            "position": 9,
+            "power": true
+        },
+        {
+            "color": "red",
+            "suspect": true,
+            "position": 2,
+            "power": true
+        },
+        {
+            "color": "pink",
+            "suspect": false,
+            "position": 4,
+            "power": true
+        },
+        {
+            "color": "white",
+            "suspect": false,
+            "position": 7,
+            "power": true
+        },
+        {
+            "color": "blue",
+            "suspect": false,
+            "position": 3,
+            "power": true
+        }
+    ],
+    "tiles": [
+        {
+            "color": "grey",
+            "suspect": false,
+            "position": 3,
+            "power": true
+        },
+        {
+            "color": "black",
+            "suspect": false,
+            "position": 4,
+            "power": true
+        },
+        {
+            "color": "red",
+            "suspect": true,
+            "position": 2,
+            "power": true
+        },
+        {
+            "color": "pink",
+            "suspect": false,
+            "position": 4,
+            "power": true
+        },
+        {
+            "color": "purple",
+            "suspect": true,
+            "position": 9,
+            "power": true
+        },
+        {
+            "color": "brown",
+            "suspect": false,
+            "position": 4,
+            "power": true
+        },
+        {
+            "color": "white",
+            "suspect": false,
+            "position": 7,
+            "power": true
+        },
+        {
+            "color": "blue",
+            "suspect": false,
+            "position": 3,
+            "power": true
+        }
+    ],
+    "active tiles": [
+        {
+            "color": "grey",
+            "suspect": false,
+            "position": 3,
+            "power": true
+        },
+        {
+            "color": "red",
+            "suspect": true,
+            "position": 2,
+            "power": true
+        },
+        {
+            "color": "pink",
+            "suspect": false,
+            "position": 4,
+            "power": true
+        }
+    ]
+}
+18:59:04 :: DEBUG :: send json to player 1
+18:59:04 :: DEBUG :: receive json from player 1
+18:59:04 :: INFO :: question : select character
+18:59:04 :: INFO :: answer : grey-3-clean
+18:59:04 :: DEBUG :: send json to player 1
+18:59:04 :: DEBUG :: receive json from player 1
+18:59:04 :: INFO :: question : activate grey power
+18:59:04 :: INFO :: answer  : yes
+18:59:04 :: INFO :: grey power activated
+18:59:04 :: DEBUG :: send json to player 1
+18:59:04 :: DEBUG :: receive json from player 1
+18:59:05 :: INFO :: question : grey character power
+18:59:05 :: INFO :: answer : 1
+18:59:05 :: DEBUG :: send json to player 1
+18:59:05 :: DEBUG :: receive json from player 1
+18:59:05 :: INFO :: question : select position
+18:59:05 :: INFO :: answer : 7
+18:59:05 :: INFO :: new position : grey-7-clean
+18:59:05 :: INFO :: --
+fantom plays
+--
+18:59:05 :: DEBUG :: {
+    "position_carlotta": 12,
+    "exit": 22,
+    "num_tour": 3,
+    "shadow": 1,
+    "blocked": [
+        0,
+        1
+    ],
+    "characters": [
+        {
+            "color": "grey",
+            "suspect": false,
+            "position": 7,
+            "power": false
+        },
+        {
+            "color": "brown",
+            "suspect": false,
+            "position": 4,
+            "power": true
+        },
+        {
+            "color": "black",
+            "suspect": false,
+            "position": 4,
+            "power": true
+        },
+        {
+            "color": "purple",
+            "suspect": true,
+            "position": 9,
+            "power": true
+        },
+        {
+            "color": "red",
+            "suspect": true,
+            "position": 2,
+            "power": true
+        },
+        {
+            "color": "pink",
+            "suspect": false,
+            "position": 4,
+            "power": true
+        },
+        {
+            "color": "white",
+            "suspect": false,
+            "position": 7,
+            "power": true
+        },
+        {
+            "color": "blue",
+            "suspect": false,
+            "position": 3,
+            "power": true
+        }
+    ],
+    "tiles": [
+        {
+            "color": "grey",
+            "suspect": false,
+            "position": 7,
+            "power": false
+        },
+        {
+            "color": "black",
+            "suspect": false,
+            "position": 4,
+            "power": true
+        },
+        {
+            "color": "red",
+            "suspect": true,
+            "position": 2,
+            "power": true
+        },
+        {
+            "color": "pink",
+            "suspect": false,
+            "position": 4,
+            "power": true
+        },
+        {
+            "color": "purple",
+            "suspect": true,
+            "position": 9,
+            "power": true
+        },
+        {
+            "color": "brown",
+            "suspect": false,
+            "position": 4,
+            "power": true
+        },
+        {
+            "color": "white",
+            "suspect": false,
+            "position": 7,
+            "power": true
+        },
+        {
+            "color": "blue",
+            "suspect": false,
+            "position": 3,
             "power": true
         }
     ],
     "active tiles": [
         {
             "color": "red",
-            "suspect": false,
-            "position": 1,
+            "suspect": true,
+            "position": 2,
             "power": true
         },
         {
-            "color": "purple",
+            "color": "pink",
             "suspect": false,
-            "position": 6,
+            "position": 4,
             "power": true
         }
     ]
 }
-16:31:04 :: DEBUG :: send json to player 1
-16:31:04 :: DEBUG :: receive json from player 1
-16:31:04 :: INFO :: question : select character
-16:31:04 :: INFO :: answer : red-1-clean
-16:31:04 :: DEBUG :: send json to player 1
-16:31:04 :: DEBUG :: receive json from player 1
-16:31:04 :: INFO :: question : activate red power
-16:31:04 :: INFO :: answer  : no
-16:31:04 :: DEBUG :: send json to player 1
-16:31:04 :: DEBUG :: receive json from player 1
-16:31:05 :: INFO :: question : select position
-16:31:05 :: INFO :: answer : 0
-16:31:05 :: INFO :: new position : red-0-clean
-16:31:05 :: DEBUG :: send json to player 1
-16:31:05 :: DEBUG :: receive json from player 1
-16:31:05 :: INFO :: question : activate red power
-16:31:05 :: INFO :: answer  : no
-16:31:05 :: INFO :: --
+18:59:05 :: DEBUG :: send json to player 1
+18:59:05 :: DEBUG :: receive json from player 1
+18:59:05 :: INFO :: question : select character
+18:59:05 :: INFO :: answer : pink-4-clean
+18:59:05 :: DEBUG :: send json to player 1
+18:59:05 :: DEBUG :: receive json from player 1
+18:59:05 :: INFO :: question : select position
+18:59:05 :: INFO :: answer : 9
+18:59:05 :: INFO :: new position : pink-9-clean
+18:59:05 :: INFO :: --
 inspector plays
 --
-16:31:05 :: DEBUG :: {
-    "position_carlotta": 13,
+18:59:05 :: DEBUG :: {
+    "position_carlotta": 12,
     "exit": 22,
     "num_tour": 3,
-    "shadow": 3,
+    "shadow": 1,
     "blocked": [
-        3,
-        7
+        0,
+        1
     ],
     "characters": [
         {
-            "color": "blue",
+            "color": "grey",
             "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 6,
+            "position": 7,
             "power": false
         },
         {
-            "color": "black",
-            "suspect": false,
-            "position": 1,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": true,
-            "position": 7,
-            "power": true
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "white",
-            "suspect": true,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "pink",
-            "suspect": false,
-            "position": 9,
-            "power": true
-        },
-        {
-            "color": "purple",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        }
-    ],
-    "tiles": [
-        {
             "color": "brown",
             "suspect": false,
-            "position": 6,
-            "power": false
-        },
-        {
-            "color": "pink",
-            "suspect": false,
-            "position": 9,
-            "power": true
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "purple",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "white",
-            "suspect": true,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "blue",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 1,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": true,
-            "position": 7,
-            "power": true
-        }
-    ],
-    "active tiles": [
-        {
-            "color": "purple",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        }
-    ]
-}
-16:31:05 :: DEBUG :: send json to player 0
-16:31:05 :: DEBUG :: receive json from player 0
-16:31:05 :: INFO :: question : select character
-16:31:05 :: INFO :: answer : purple-6-clean
-16:31:05 :: DEBUG :: send json to player 0
-16:31:05 :: DEBUG :: receive json from player 0
-16:31:05 :: INFO :: question : activate purple power
-16:31:05 :: INFO :: answer  : yes
-16:31:05 :: INFO :: purple power activated
-16:31:05 :: DEBUG :: send json to player 0
-16:31:05 :: DEBUG :: receive json from player 0
-16:31:05 :: INFO :: question : purple character power
-16:31:05 :: INFO :: answer : grey
-16:31:05 :: INFO :: new position : purple-7-clean
-16:31:05 :: INFO :: new position : grey-6-suspect
-16:31:05 :: INFO :: the fantom does not scream.
-16:31:05 :: INFO :: 
-------------------
-16:31:05 :: INFO :: 
-blue-6-cleanTour: 4,
-Position Carlotta / exit: 15/22,
-Shadow: 3,
-blocked: {3, 7}
-brown-6-cleanTour: 4,
-Position Carlotta / exit: 15/22,
-Shadow: 3,
-blocked: {3, 7}
-black-1-cleanTour: 4,
-Position Carlotta / exit: 15/22,
-Shadow: 3,
-blocked: {3, 7}
-grey-6-suspectTour: 4,
-Position Carlotta / exit: 15/22,
-Shadow: 3,
-blocked: {3, 7}
-red-0-cleanTour: 4,
-Position Carlotta / exit: 15/22,
-Shadow: 3,
-blocked: {3, 7}
-white-0-suspectTour: 4,
-Position Carlotta / exit: 15/22,
-Shadow: 3,
-blocked: {3, 7}
-pink-9-cleanTour: 4,
-Position Carlotta / exit: 15/22,
-Shadow: 3,
-blocked: {3, 7}
-purple-7-clean
-16:31:05 :: DEBUG :: {
-    "position_carlotta": 15,
-    "exit": 22,
-    "num_tour": 4,
-    "shadow": 3,
-    "blocked": [
-        3,
-        7
-    ],
-    "characters": [
-        {
-            "color": "blue",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 1,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": true,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "white",
-            "suspect": true,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "pink",
-            "suspect": false,
-            "position": 9,
-            "power": true
-        },
-        {
-            "color": "purple",
-            "suspect": false,
-            "position": 7,
-            "power": true
-        }
-    ],
-    "tiles": [
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "pink",
-            "suspect": false,
-            "position": 9,
-            "power": true
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "purple",
-            "suspect": false,
-            "position": 7,
-            "power": true
-        },
-        {
-            "color": "white",
-            "suspect": true,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "blue",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 1,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": true,
-            "position": 6,
-            "power": true
-        }
-    ],
-    "active tiles": []
-}
-16:31:05 :: INFO :: --
-fantom plays
---
-16:31:05 :: DEBUG :: {
-    "position_carlotta": 15,
-    "exit": 22,
-    "num_tour": 4,
-    "shadow": 3,
-    "blocked": [
-        3,
-        7
-    ],
-    "characters": [
-        {
-            "color": "blue",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 1,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": true,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "white",
-            "suspect": true,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "pink",
-            "suspect": false,
-            "position": 9,
-            "power": true
-        },
-        {
-            "color": "purple",
-            "suspect": false,
-            "position": 7,
-            "power": true
-        }
-    ],
-    "tiles": [
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "pink",
-            "suspect": false,
-            "position": 9,
-            "power": true
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "purple",
-            "suspect": false,
-            "position": 7,
-            "power": true
-        },
-        {
-            "color": "white",
-            "suspect": true,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "blue",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 1,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": true,
-            "position": 6,
-            "power": true
-        }
-    ],
-    "active tiles": [
-        {
-            "color": "white",
-            "suspect": true,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "blue",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 1,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": true,
-            "position": 6,
-            "power": true
-        }
-    ]
-}
-16:31:05 :: DEBUG :: send json to player 1
-16:31:05 :: DEBUG :: receive json from player 1
-16:31:05 :: INFO :: question : select character
-16:31:05 :: INFO :: answer : black-1-clean
-16:31:05 :: DEBUG :: send json to player 1
-16:31:05 :: DEBUG :: receive json from player 1
-16:31:05 :: INFO :: question : select position
-16:31:05 :: INFO :: answer : 0
-16:31:05 :: INFO :: new position : black-0-clean
-16:31:05 :: DEBUG :: send json to player 1
-16:31:05 :: DEBUG :: receive json from player 1
-16:31:05 :: INFO :: question : activate black power
-16:31:05 :: INFO :: answer  : no
-16:31:05 :: INFO :: --
-inspector plays
---
-16:31:05 :: DEBUG :: {
-    "position_carlotta": 15,
-    "exit": 22,
-    "num_tour": 4,
-    "shadow": 3,
-    "blocked": [
-        3,
-        7
-    ],
-    "characters": [
-        {
-            "color": "blue",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": true,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "white",
-            "suspect": true,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "pink",
-            "suspect": false,
-            "position": 9,
-            "power": true
-        },
-        {
-            "color": "purple",
-            "suspect": false,
-            "position": 7,
-            "power": true
-        }
-    ],
-    "tiles": [
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "pink",
-            "suspect": false,
-            "position": 9,
-            "power": true
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "purple",
-            "suspect": false,
-            "position": 7,
-            "power": true
-        },
-        {
-            "color": "white",
-            "suspect": true,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "blue",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": true,
-            "position": 6,
-            "power": true
-        }
-    ],
-    "active tiles": [
-        {
-            "color": "white",
-            "suspect": true,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "blue",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": true,
-            "position": 6,
-            "power": true
-        }
-    ]
-}
-16:31:05 :: DEBUG :: send json to player 0
-16:31:05 :: DEBUG :: receive json from player 0
-16:31:05 :: INFO :: question : select character
-16:31:05 :: INFO :: answer : white-0-suspect
-16:31:05 :: DEBUG :: send json to player 0
-16:31:05 :: DEBUG :: receive json from player 0
-16:31:05 :: INFO :: question : select position
-16:31:05 :: INFO :: answer : 4
-16:31:05 :: INFO :: new position : white-4-suspect
-16:31:05 :: DEBUG :: send json to player 0
-16:31:05 :: DEBUG :: receive json from player 0
-16:31:05 :: INFO :: question : activate white power
-16:31:05 :: INFO :: answer  : yes
-16:31:05 :: INFO :: white power activated
-16:31:05 :: INFO :: --
-inspector plays
---
-16:31:05 :: DEBUG :: {
-    "position_carlotta": 15,
-    "exit": 22,
-    "num_tour": 4,
-    "shadow": 3,
-    "blocked": [
-        3,
-        7
-    ],
-    "characters": [
-        {
-            "color": "blue",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": true,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "white",
-            "suspect": true,
             "position": 4,
-            "power": false
+            "power": true
+        },
+        {
+            "color": "black",
+            "suspect": false,
+            "position": 4,
+            "power": true
+        },
+        {
+            "color": "purple",
+            "suspect": true,
+            "position": 9,
+            "power": true
+        },
+        {
+            "color": "red",
+            "suspect": true,
+            "position": 2,
+            "power": true
         },
         {
             "color": "pink",
@@ -2679,17 +2096,35 @@ inspector plays
             "power": true
         },
         {
-            "color": "purple",
+            "color": "white",
             "suspect": false,
             "position": 7,
+            "power": true
+        },
+        {
+            "color": "blue",
+            "suspect": false,
+            "position": 3,
             "power": true
         }
     ],
     "tiles": [
         {
-            "color": "brown",
+            "color": "grey",
             "suspect": false,
-            "position": 6,
+            "position": 7,
+            "power": false
+        },
+        {
+            "color": "black",
+            "suspect": false,
+            "position": 4,
+            "power": true
+        },
+        {
+            "color": "red",
+            "suspect": true,
+            "position": 2,
             "power": true
         },
         {
@@ -2699,219 +2134,60 @@ inspector plays
             "power": true
         },
         {
-            "color": "red",
-            "suspect": false,
-            "position": 0,
+            "color": "purple",
+            "suspect": true,
+            "position": 9,
             "power": true
         },
         {
-            "color": "purple",
+            "color": "brown",
+            "suspect": false,
+            "position": 4,
+            "power": true
+        },
+        {
+            "color": "white",
             "suspect": false,
             "position": 7,
             "power": true
         },
         {
-            "color": "white",
-            "suspect": true,
-            "position": 4,
-            "power": false
-        },
-        {
             "color": "blue",
             "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": true,
-            "position": 6,
+            "position": 3,
             "power": true
         }
     ],
     "active tiles": [
         {
-            "color": "blue",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "grey",
+            "color": "red",
             "suspect": true,
-            "position": 6,
+            "position": 2,
             "power": true
         }
     ]
 }
-16:31:05 :: DEBUG :: send json to player 0
-16:31:05 :: DEBUG :: receive json from player 0
-16:31:05 :: INFO :: question : select character
-16:31:05 :: INFO :: answer : blue-6-clean
-16:31:05 :: DEBUG :: send json to player 0
-16:31:05 :: DEBUG :: receive json from player 0
-16:31:06 :: INFO :: question : activate blue power
-16:31:06 :: INFO :: answer  : yes
-16:31:06 :: INFO :: blue power activated
-16:31:06 :: DEBUG :: send json to player 0
-16:31:06 :: DEBUG :: receive json from player 0
-16:31:06 :: DEBUG :: send json to player 0
-16:31:06 :: DEBUG :: receive json from player 0
-16:31:06 :: INFO :: question : blue character power exit
-16:31:06 :: INFO :: answer : {6, 7}
-16:31:06 :: DEBUG :: send json to player 0
-16:31:06 :: DEBUG :: receive json from player 0
-16:31:06 :: INFO :: question : select position
-16:31:06 :: INFO :: answer : 5
-16:31:06 :: INFO :: new position : blue-5-clean
-16:31:06 :: INFO :: --
-fantom plays
---
-16:31:06 :: DEBUG :: {
-    "position_carlotta": 15,
-    "exit": 22,
-    "num_tour": 4,
-    "shadow": 3,
-    "blocked": [
-        6,
-        7
-    ],
-    "characters": [
-        {
-            "color": "blue",
-            "suspect": false,
-            "position": 5,
-            "power": false
-        },
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": true,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "white",
-            "suspect": true,
-            "position": 4,
-            "power": false
-        },
-        {
-            "color": "pink",
-            "suspect": false,
-            "position": 9,
-            "power": true
-        },
-        {
-            "color": "purple",
-            "suspect": false,
-            "position": 7,
-            "power": true
-        }
-    ],
-    "tiles": [
-        {
-            "color": "brown",
-            "suspect": false,
-            "position": 6,
-            "power": true
-        },
-        {
-            "color": "pink",
-            "suspect": false,
-            "position": 9,
-            "power": true
-        },
-        {
-            "color": "red",
-            "suspect": false,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "purple",
-            "suspect": false,
-            "position": 7,
-            "power": true
-        },
-        {
-            "color": "white",
-            "suspect": true,
-            "position": 4,
-            "power": false
-        },
-        {
-            "color": "blue",
-            "suspect": false,
-            "position": 5,
-            "power": false
-        },
-        {
-            "color": "black",
-            "suspect": false,
-            "position": 0,
-            "power": true
-        },
-        {
-            "color": "grey",
-            "suspect": true,
-            "position": 6,
-            "power": true
-        }
-    ],
-    "active tiles": [
-        {
-            "color": "grey",
-            "suspect": true,
-            "position": 6,
-            "power": true
-        }
-    ]
-}
-16:31:06 :: DEBUG :: send json to player 1
-16:31:06 :: DEBUG :: receive json from player 1
-16:31:06 :: INFO :: question : select character
-16:31:06 :: INFO :: answer : grey-6-suspect
-16:31:06 :: DEBUG :: send json to player 1
-16:31:06 :: DEBUG :: receive json from player 1
-16:31:06 :: INFO :: question : activate grey power
-16:31:06 :: INFO :: answer  : no
-16:31:06 :: DEBUG :: send json to player 1
-16:31:06 :: DEBUG :: receive json from player 1
-16:31:06 :: INFO :: question : select position
-16:31:06 :: INFO :: answer : 5
-16:31:06 :: INFO :: new position : grey-5-suspect
-16:31:06 :: DEBUG :: send json to player 1
-16:31:06 :: DEBUG :: receive json from player 1
-16:31:06 :: INFO :: question : activate grey power
-16:31:06 :: INFO :: answer  : no
-16:31:06 :: INFO :: The fantom screams.
-16:31:06 :: INFO :: ----------
----- inspector wins : fantom is white-4-suspect
-16:31:06 :: INFO :: ---- final position of Carlotta : 17
-16:31:06 :: INFO :: ---- exit : 22
-16:31:06 :: INFO :: ---- final score : 5
+18:59:05 :: DEBUG :: send json to player 0
+18:59:05 :: DEBUG :: receive json from player 0
+18:59:05 :: INFO :: question : select character
+18:59:05 :: INFO :: answer : red-2-suspect
+18:59:05 :: DEBUG :: send json to player 0
+18:59:05 :: DEBUG :: receive json from player 0
+18:59:05 :: INFO :: question : activate red power
+18:59:05 :: INFO :: answer  : no
+18:59:05 :: DEBUG :: send json to player 0
+18:59:05 :: DEBUG :: receive json from player 0
+18:59:05 :: INFO :: question : select position
+18:59:05 :: INFO :: answer : 1
+18:59:05 :: INFO :: new position : red-1-suspect
+18:59:05 :: DEBUG :: send json to player 0
+18:59:05 :: DEBUG :: receive json from player 0
+18:59:05 :: INFO :: question : activate red power
+18:59:05 :: INFO :: answer  : no
+18:59:05 :: INFO :: The fantom screams.
+18:59:05 :: INFO :: ----------
+---- inspector wins : fantom is red-1-suspect
+18:59:05 :: INFO :: ---- final position of Carlotta : 14
+18:59:05 :: INFO :: ---- exit : 22
+18:59:05 :: INFO :: ---- final score : 8
 ----------
