@@ -52,8 +52,8 @@ class Player():
         print("data == ", data)
         i = 0
         qtype = question["question type"]
-        print("question", qtype)
         response_index = random.randint(0, len(data) - 1)
+        print("question : ", qtype)
         if qtype == "select character":
             while i < len(question["data"]):
                 print("character color  is : ", data[i]["color"], " | and his pos is :", data[i]["position"])
@@ -70,7 +70,7 @@ class Player():
         elif qtype == "activate blue power":
             response_index = 1
         elif qtype == "activate white power":
-            response_index = 1
+            response_index = 0
         elif qtype == "activate grey power":
             response_index = 1
         elif qtype == "activate pink power":
