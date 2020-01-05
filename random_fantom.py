@@ -166,6 +166,22 @@ class Player():
         elif qtype == "select position":
             response_index = 0
             print("respone : ", response_index)
+            j = 0
+            while j < len(question["game state"]["characters"]):
+                print("gstate suspect : ", question["game state"]["characters"][j]["suspect"], " | position :",
+                      question["game state"]["characters"][j]["position"], " | color : ",
+                      question["game state"]["characters"][j]["color"])
+                x = 0
+                while x < len(data):
+                    print(data[x])
+                    if data[x] != question["game state"]["characters"][j]["position"]:
+                        response_index = x
+                        print("if response :", response_index)
+                        x = 42
+                    x += 1
+                j += 1
+
+
         # log
         fantom_logger.debug("|\n|")
         fantom_logger.debug("fantom answers")
