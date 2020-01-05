@@ -45,10 +45,98 @@ class Player():
     def reset(self):
         self.socket.close()
 
+    def get_empty_room(self, tab):
+        room = 0
+        empty_room = []
+        while room < 8:
+            i = 0
+            empty = True
+            while i < len(tab):
+                if tab[i]["position"] == room:
+                    empty = False
+                i += 1
+            if empty:
+                empty_room.append(room)
+            room += 1
+        return empty_room
+
+    def get_suspect_group(self, tab, shadow):
+        i = 0
+        suspect = []
+        while i < len(tab):
+            if tab[i][0]['position'] != shadow:
+                suspect.append(tab[i])
+            i += 1
+        return suspect
+
+    def get_group(self, tab):
+        x = 0
+        room = 0
+        group = []
+        while room < 8:
+            current_group = []
+            i = 0
+            while i < len(tab):
+                if tab[i]["position"] == room:
+                    current_group.append(tab[i])
+                i += 1
+            if len(current_group) > 1:
+                group.append(current_group)
+                x += 1
+            room += 1
+        return group
+
+    def select_character(self, suspect, data, fantom):
+        x = 0
+        while x < len(suspect) and x < len(data):
+            i = 0
+            while i < len(suspect[x]):
+                if suspect[x][i]["color"] == fantom:
+                    print("fantom is going to move : ", suspect[x][i]["color"])
+                    return x
+                i += 1
+            x += 1
+        x = 0
+        while x < len(suspect) and x < len(data):
+            i = 0
+            while i < len(suspect[x]):
+                if suspect[x][i]["color"] == data[x]["color"]:
+                    print("suspect can be played : ", suspect[x][i]["color"])
+                    return x
+                i += 1
+            x += 1
+        print("none of the suspect can move")
+        return random.randint(0, len(data) - 1)
+
+    def select_position(self, empty_room, data):
+        i = 0
+        while i < len(data):
+            x = 0
+            while x < len(empty_room):
+                if data[i] == empty_room[x]:
+                    return i
+                x += 1
+            i += 1
+        return 0
+
     def answer(self, question):
         # work
         data = question["data"]
+        state = question["game state"]
+        group = self.get_group(state["characters"])
+        suspect = self.get_suspect_group(group, state["shadow"])
+        empty_room = self.get_empty_room(state["characters"])
+        fantom = state["fantom"]
+        print("the fantom is : ", fantom)
+        print('')
+        print("group : ", group)
+        print("shadow is room : ", state["shadow"])
+        print("suspect : ", suspect)
+        print('')
         print("data == ", data)
+        print('')
+        print("empty room : ", empty_room)
+        print('')
         i = 0
         qtype = question["question type"]
         print("question", qtype)
@@ -57,7 +145,7 @@ class Player():
             while i < len(question["data"]):
                 print("character color  is : ", data[i]["color"], " | and his pos is :", data[i]["position"])
                 i += 1
-            response_index = random.randint(0, len(data) - 1)
+            response_index = self.select_character(suspect, data, fantom)
             print("response : ", response_index)
         # power = "activate " + data[response_inde]['color'] + " power"
         elif qtype == "activate purple power":
@@ -85,6 +173,8 @@ class Player():
         fantom_logger.debug(f"data -------------- {data}")
         fantom_logger.debug(f"response index ---- {response_index}")
         fantom_logger.debug(f"response ---------- {data[response_index]}")
+        print('')
+        print('---------------------')
         return response_index
 
     def handle_json(self, data):
