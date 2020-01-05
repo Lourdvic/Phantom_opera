@@ -7,6 +7,7 @@
       <change beforePath="$PROJECT_DIR$/logs/game.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/inspector.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/inspector.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/profiling.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/profiling.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_fantom.py" beforeDir="false" afterPath="$PROJECT_DIR$/random_fantom.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/random_inspector.py" beforeDir="false" afterPath="$PROJECT_DIR$/random_inspector.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,7 +66,8 @@
       <workItem from="1577732683074" duration="2260000" />
       <workItem from="1577975320349" duration="5832000" />
       <workItem from="1578075387139" duration="2016000" />
-      <workItem from="1578137374129" duration="14738000" />
+      <workItem from="1578137374129" duration="18289000" />
+      <workItem from="1578248503739" duration="8941000" />
     </task>
     <servers />
   </component>
