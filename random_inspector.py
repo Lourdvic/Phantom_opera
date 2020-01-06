@@ -73,7 +73,7 @@ class Player():
         response_index = random.randint(0, len(data) - 1)
         print("question : ", qtype)
         #print("game state : ", question["game state"])
-        print("fantom is :", question["game state"]["fantom"])
+        #print("fantom is :", question["game state"]["fantom"])
         if qtype == Player.switch(8) :
             while i < len(question["data"]):
                 print("character color  is : ", data[i]["color"], " | and his pos is :", data[i]["position"])
