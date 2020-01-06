@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d06fc9a4-79c7-485b-8b19-8a38a847a909" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Phantom_opera.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Phantom_opera.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/fantom.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/fantom.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/inspector.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/inspector.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/profiling.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/profiling.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_fantom.py" beforeDir="false" afterPath="$PROJECT_DIR$/random_fantom.py" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/random_inspector.py" beforeDir="false" afterPath="$PROJECT_DIR$/random_inspector.py" afterDir="false" />
+>>>>>>> 699031e49d2c07b464aaba7f6027e0d59ab3c55b
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +31,13 @@
     </option>
   </component>
   <component name="ProjectId" id="1VRGDUCQM25587CSSC9ub7soQnR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -30,16 +46,17 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -61,7 +78,7 @@
       <workItem from="1577975320349" duration="5832000" />
       <workItem from="1578075387139" duration="2016000" />
       <workItem from="1578137374129" duration="18289000" />
-      <workItem from="1578248503739" duration="15464000" />
+      <workItem from="1578248503739" duration="8941000" />
     </task>
     <servers />
   </component>
@@ -80,5 +97,23 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="352" y="223" width="1084" height="717" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578233671720">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="352" y="223" width="1084" height="717" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1578233671720" />
+    <state x="484" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1578233734054">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="484" y="188" width="1022" height="737" key="SettingsEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1578233734054" />
+    <state x="651" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1578233392219">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="651" y="380" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1578233392219" />
+    <state x="641" y="150" width="707" height="807" key="find.popup" timestamp="1578242627600">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="641" y="150" width="707" height="807" key="find.popup/70.27.1850.1053@70.27.1850.1053" timestamp="1578242627600" />
   </component>
 </project>
