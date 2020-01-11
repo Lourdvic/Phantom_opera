@@ -46,6 +46,9 @@ class Player():
     def reset(self):
         self.socket.close()
 
+    """
+    Switch case statement
+    """
     def switch(self):
         switcher = {
             0: "activate purple power",
@@ -60,47 +63,35 @@ class Player():
             9: "grey character power",
             10: "purple character power",
             11: "blue character power room",
-            12: "blue character power exit"
+            12: "blue character power exit",
+            13: "activate brwon power"
         }
         return switcher.get(self, "nothing")
 
     def answer(self, question):
         # works
         data = question["data"]
-        print("data == ", data)
         i = 0
         qtype = question["question type"]
         response_index = random.randint(0, len(data) - 1)
-        print("question : ", qtype)
-        #print("game state : ", question["game state"])
-        #print("fantom is :", question["game state"]["fantom"])
         if qtype == Player.switch(8) :
             while i < len(question["data"]):
-                print("character color  is : ", data[i]["color"], " | and his pos is :", data[i]["position"])
                 i += 1
             response_index = random.randint(0, len(data) - 1)
-            print("response : ", response_index)
-        # power = "activate " + data[response_index]['color'] + " power"
         elif qtype == Player.switch(0) or qtype == Player.switch(1) or qtype == Player.switch(2) \
-                or qtype == Player.switch(3) or qtype == Player.switch(5) or qtype == Player.switch(6):
+                or qtype == Player.switch(3) or qtype == Player.switch(5) or qtype == Player.switch(6)\
+                or qtype == Player.switch(13):
             response_index = 1
         elif qtype == Player.switch(9):
             j = 0
             # on récupère la position des pions ds le current tour
             while j < len(question["game state"]["characters"]):
-                print("gstate suspect : ", question["game state"]["characters"][j]["suspect"], " | position :",
-                      question["game state"]["characters"][j]["position"], " | color : ",
-                      question["game state"]["characters"][j]["color"])
                 x = 0
                 while x < len(data):
-                    print(data[x])
-                    # on déplace le pion dans une room ou y'a un joueur encore suspect afin de les rassemblés pour qu'il ne crient pas
-                        #la je mets la panne de lumiere dans une piece vide ou avec innocent
+                        #panne de lumiere mise  dans une piece vide ou avec innocent
                     if data[x] == question["game state"]["characters"][j]["position"] \
                             and question["game state"]["characters"][j]["suspect"] == False:
-                        print("suspect ? ", question["game state"]["characters"][j]["suspect"])
                         response_index = x
-                        print("if response :", response_index)
                         x = 42
                     x += 1
                 j += 1
@@ -108,45 +99,29 @@ class Player():
             response_index = 0
         elif qtype == Player.switch(11) or Player.switch(12):
             j = 0
-            # on récupère la position des pions ds le current tour
             while j < len(question["game state"]["characters"]):
-                print("gstate suspect : ", question["game state"]["characters"][j]["suspect"], " | position :",
-                      question["game state"]["characters"][j]["position"], " | color : ",
-                      question["game state"]["characters"][j]["color"])
                 x = 0
                 while x < len(data):
-                    print(data[x])
                     if data[x] != question["game state"]["characters"][j]["position"] \
                             or question["game state"]["characters"][j]["suspect"] == False:
-                        print("suspect ? ", question["game state"]["characters"][j]["suspect"])
                         response_index = x
-                        print("if response :", response_index)
                         x = 42
                     x += 1
                 j += 1
         elif qtype == Player.switch(7):
             j = 0
-            #on récupère la position des pions ds le current tour
             while j < len(question["game state"]["characters"]):
-                print("gstate suspect : ", question["game state"]["characters"][j]["suspect"], " | position :",
-                  question["game state"]["characters"][j]["position"], " | color : ",
-                  question["game state"]["characters"][j]["color"])
                 x = 0
                 while x < len(data):
-                    print(data[x])
                     #le if nous permet de choisir dans quel conditions et ou nous déplacons le joueur
-                        #ici on vérifie d'abords les joueurs présent dans les salles ou l'inspecteur peut déplacer sont pions
+                    #ici on vérifie d'abords les joueurs présent dans les salles ou l'inspecteur peut déplacer sont pions
                     # puis il déplace le pion dans une room ou y'a un joueur suspect afin de les rassemblés pour qu'il ne crient pas
                     if data[x] == question["game state"]["characters"][j]["position"]\
                             and question["game state"]["characters"][j]["suspect"] == True :
-                        print("suspect ? ", question["game state"]["characters"][j]["suspect"])
                         response_index = x
-                        print("if response :", response_index)
                         x = 42
                     x += 1
                 j += 1
-
-            print("respone : ", response_index)
 
         # log
         inspector_logger.debug("|\n|")
