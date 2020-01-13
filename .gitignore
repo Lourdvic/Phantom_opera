@@ -1,3 +1,5 @@
 __pycache__
 src/__init__.pyc
 src/__pycache__
+logs
+logs/game.log

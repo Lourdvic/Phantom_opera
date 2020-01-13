@@ -92,7 +92,6 @@ class Player():
             i = 0
             while i < len(suspect[x]):
                 if suspect[x][i]["color"] == fantom:
-                    print("fantom is going to move : ", suspect[x][i]["color"])
                     return x
                 i += 1
             x += 1
@@ -101,11 +100,9 @@ class Player():
             i = 0
             while i < len(suspect[x]):
                 if suspect[x][i]["color"] == data[x]["color"]:
-                    print("suspect can be played : ", suspect[x][i]["color"])
                     return x
                 i += 1
             x += 1
-        print("none of the suspect can move")
         return random.randint(0, len(data) - 1)
 
     def select_position(self, empty_room, data):
@@ -121,77 +118,67 @@ class Player():
 
     def answer(self, question):
         # work
-        data = question["data"]
         state = question["game state"]
-        group = self.get_group(state["characters"])
-        suspect = self.get_suspect_group(group, state["shadow"])
-        empty_room = self.get_empty_room(state["characters"])
-        fantom = state["fantom"]
-        print("the fantom is : ", fantom)
-        print('')
-        print("group : ", group)
-        print("shadow is room : ", state["shadow"])
-        print("suspect : ", suspect)
-        print('')
-        print("data == ", data)
-        print('')
-        print("empty room : ", empty_room)
-        print('')
-        i = 0
-        qtype = question["question type"]
-        print("question", qtype)
-        response_index = random.randint(0, len(data) - 1)
-        if qtype == "select character":
-            while i < len(question["data"]):
-                print("character color  is : ", data[i]["color"], " | and his pos is :", data[i]["position"])
-                i += 1
-            response_index = self.select_character(suspect, data, fantom)
-            print("response : ", response_index)
-        # power = "activate " + data[response_inde]['color'] + " power"
-        elif qtype == "activate purple power":
-            response_index = 0
-        elif qtype == "activate red power":
-            response_index = 0
-        elif qtype == "activate black power":
-            response_index = 0
-        elif qtype == "activate blue power":
-            response_index = 0
-        elif qtype == "activate white power":
-            response_index = 0
-        elif qtype == "activate grey power":
-            response_index = 0
-        elif qtype == "activate pink power":
+        try:
+            state["fantom"]
+        except NameError:
+            print("fantom isn't defined")
+        else:
+            data = question["data"]
+            group = self.get_group(state["characters"])
+            suspect = self.get_suspect_group(group, state["shadow"])
+            empty_room = self.get_empty_room(state["characters"])
+            fantom = state["fantom"]
+            qtype = question["question type"]
             response_index = random.randint(0, len(data) - 1)
-            print("respone : ", response_index)
-        elif qtype == "select position":
-            response_index = 0
-            print("respone : ", response_index)
-            j = 0
-            while j < len(question["game state"]["characters"]):
-                print("gstate suspect : ", question["game state"]["characters"][j]["suspect"], " | position :",
-                      question["game state"]["characters"][j]["position"], " | color : ",
-                      question["game state"]["characters"][j]["color"])
-                x = 0
-                while x < len(data):
-                    print(data[x])
-                    if data[x] != question["game state"]["characters"][j]["position"]:
-                        response_index = x
-                        print("if response :", response_index)
-                        x = 42
-                    x += 1
-                j += 1
+            if qtype == "select character":
+                response_index = self.select_character(suspect, data, fantom)
+            if qtype == "select position":
+                response_index = self.select_position(empty_room, data)
+            # power = "activate " + data[response_inde]['color'] + " power"
+            elif qtype == "activate purple power":
+                response_index = 0
+            elif qtype == "activate red power":
+                response_index = 0
+            elif qtype == "activate black power":
+                response_index = 0
+            elif qtype == "activate blue power":
+                response_index = 0
+            elif qtype == "activate white power":
+                response_index = 0
+            elif qtype == "activate grey power":
+                response_index = 0
+            elif qtype == "activate pink power":
+                response_index = random.randint(0, len(data) - 1)
+                print("respone : ", response_index)
+            elif qtype == "select position":
+                response_index = 0
+                print("respone : ", response_index)
+                j = 0
+                while j < len(question["game state"]["characters"]):
+                    print("gstate suspect : ", question["game state"]["characters"][j]["suspect"], " | position :",
+                          question["game state"]["characters"][j]["position"], " | color : ",
+                          question["game state"]["characters"][j]["color"])
+                    x = 0
+                    while x < len(data):
+                        print(data[x])
+                        if data[x] != question["game state"]["characters"][j]["position"]:
+                            response_index = x
+                            print("if response :", response_index)
+                            x = 42
+                        x += 1
+                    j += 1
 
 
-        # log
-        fantom_logger.debug("|\n|")
-        fantom_logger.debug("fantom answers")
-        fantom_logger.debug(f"question type ----- {question['question type']}")
-        fantom_logger.debug(f"data -------------- {data}")
-        fantom_logger.debug(f"response index ---- {response_index}")
-        fantom_logger.debug(f"response ---------- {data[response_index]}")
-        print('')
-        print('---------------------')
-        return response_index
+            # log
+            fantom_logger.debug("|\n|")
+            fantom_logger.debug("fantom answers")
+            fantom_logger.debug(f"question type ----- {question['question type']}")
+            fantom_logger.debug(f"data -------------- {data}")
+            fantom_logger.debug(f"response index ---- {response_index}")
+            fantom_logger.debug(f"response ---------- {data[response_index]}")
+            return response_index
+        return -1
 
     def handle_json(self, data):
         data = json.loads(data)
