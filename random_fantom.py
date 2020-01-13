@@ -119,11 +119,7 @@ class Player():
     def answer(self, question):
         # work
         state = question["game state"]
-        try:
-            state["fantom"]
-        except NameError:
-            print("fantom isn't defined")
-        else:
+        if len(state) > 8:
             data = question["data"]
             group = self.get_group(state["characters"])
             suspect = self.get_suspect_group(group, state["shadow"])
